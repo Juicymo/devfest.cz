@@ -4,3 +4,6 @@ build
 _site/
 .sass-cache/
 _cache/
+compass-twitter-bootstrap
+pygments-main
+Gemfile.lock
