@@ -7,17 +7,39 @@ layout: default
 <section>
 
   <div class="row">
-    <div class="span6 header">
-      <h1>
-        <span class="motto">Gug.cz vás zve na</span>
-        <img class="logo" src="/imgs/devfest-logo.png" width="382" height="81" alt="Devfest Praha">       
-      </h1>  
-    </div>
-    <div class="span6 tabs">
-      todo taby
+    <div class="span12">
+      <div class="header">
+        <h1>
+          <span class="motto">Gug.cz vás zve na</span>
+          <img class="logo" src="/imgs/devfest-logo.png" width="382" height="81" alt="Devfest Praha">       
+        </h1> 
+        <h2>By developers, for developers</h2> 
+      </div>
+      <div class="register">
+        <p>
+          Zaujalo? Těšíte se na další info?
+        </p>
+        <input type="text">
+        <a href="#" class="btn btn-primary"><span class="big">Informujte mě</span>až se otevřou registrace</a>
+      </div>
+      <div>
+        <p>a/nebo</p>
+        <ul class="buttons">
+          <li>
+            <a href="#">
+              Chci přednášet
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Chci přihlásit aplikaci na GugCamp
+            </a>
+          </li>
+        </ul>
+      </div>
+      TODO liky
     </div>
   </div>
-
 </section>
 
 <section>
@@ -33,7 +55,7 @@ layout: default
         Technická 4<br />
         Praha 6  166 07
       </address>
-      <iframe width="270" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;ll=50.103515,14.392262&amp;spn=0.013763,0.023174&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;ll=50.103515,14.392262&amp;spn=0.013763,0.023174&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">Zvětšit mapu</a></small>
+      <iframe width="550" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;ll=50.10957,14.393206&amp;spn=0.019266,0.047207&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;ll=50.10957,14.393206&amp;spn=0.019266,0.047207&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Zvětšit mapu</a></small>
     </div>
 
     <div class="span3">
@@ -45,7 +67,6 @@ layout: default
       <p>
         Celý den plný zábavy, networkingu, přednášek a wait for it... <strong>zdrojových kódů</strong>. (v uvedeném pořadí! ;-))
       </p>
-      TODO liky
     </div>
 
     <div class="span6">
@@ -53,7 +74,7 @@ layout: default
         <h2><i class="icon-star"></i> Co vás čeká?</h2>
         <ul class="menu left">
           <li>Přednášky o #Androidu</li>
-          <li>Přednášky o Webdevelopmentu</li>
+          <li>Přednášky o #Webdevelopmentu</li>
           <li>Failcon</li>
           <li>GugCamp</li>
           <li>FightClub</li>
@@ -68,23 +89,41 @@ layout: default
           <li class="more">... a mnohé další!</li>
         </ul>
       </div>
-      <div class="register">
-        <div class="row">
-          <div class="span3">
-            <p>
-              Zaujalo? Těšíte se na další info?
-              <input type="text">
-            </p>
+      <div id="nav-tabs">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#devfest" data-toggle="tab">DevFest</a></li>
+          <li><a href="#prednasky" data-toggle="tab">Přednášky</a></li>
+          <li><a href="#gugcamp" data-toggle="tab">GugCamp</a></li>
+          <li><a href="#fightclub" data-toggle="tab">FightClub</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="devfest">
+            <h2>Největší vývojářský festival v ČR!</h2>
+            <p>Jeden den, 500 vývojářů na jednom místě!</p>
           </div>
-          <div class="span3">
-            <a href="#" class="btn btn-primary"><span class="big">Informujte mě</span>až se otevřou registrace</a>
+          <div class="tab-pane" id="prednasky">
+            <h2>Přednášky o Androidu a Webdevelopmentu</h2>
+            <p>Máme připraveny přednášky od skutečných odborníků, máte možnost se k nim přidat.</p>
+            <a href="#">
+              Chci se k nim přidat
+            </a>
+          </div>
+          <div class="tab-pane" id="gugcamp">
+            <h2>GugCamp</h2>
+            <p>Přehlídka vašich aplikací s Google technologiemi a vybrání té nejlepší z nich.</p>
+            <a href="#">
+              Chci soutěžit
+            </a>
+          </div>
+          <div class="tab-pane" id="fightclub">
+            <h2>FightClub</h2>
+            <p>Souboj vývojářů mobilních platforem, dva týmy, jedno zadání. Realtime!</p>
+            <a href="#">
+              Chci soutěžit
+            </a>
           </div>
         </div>
-        <p>a/nebo</p>
-        TODO ostatn9 registrace
       </div>
-
-      
     </div>
   </div> <!-- /.row -->
 
