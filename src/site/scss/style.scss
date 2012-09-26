@@ -124,6 +124,7 @@ ol.toc li {
 .navbar a.brand {
   padding: 9px 20px 0 20px;
   font-size: $baseFontSize + 2;
+  min-width: 350px;
   @media (max-width: 767px) {
     font-size: $baseFontSize;
   }
@@ -131,6 +132,10 @@ ol.toc li {
     margin-right: 5px;
     margin-top: -4px;
   }
+}
+
+.navbar-inner {
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 
 .navbar-search {
