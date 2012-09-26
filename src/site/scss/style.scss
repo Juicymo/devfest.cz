@@ -317,6 +317,10 @@ a.permalink {
   margin: 0;
 }
 
+.menu-h li {
+    float: left;
+}
+
 .left {
   float: left;
 }
@@ -334,6 +338,33 @@ a.permalink {
 .when {
   h2 {
     color: $yellow-dark;
+  }
+}
+
+.logos {
+  a {
+    background: transparent url('../imgs/logos-footer.png') top left no-repeat;  
+    display: block;
+    text-indent: -99999px;
+    width: 165px;
+    height: 60px;
+  }
+  ul {
+    margin: 0 auto;
+    width: 430px;
+  }
+  li {
+    padding: 0 20px;
+  }
+  .gug a:hover  {
+    background-position: left bottom;
+  }
+  .google a {
+    background-position: right top;
+    width: 176px;
+  }
+  .google a:hover {
+    background-position: right bottom;
   }
 }
 
