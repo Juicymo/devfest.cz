@@ -167,6 +167,10 @@ article.homepage {
         border: 1px solid $border-hero-unit;
         width: 100%;
       }
+      .likes iframe {
+        border: none;
+        width: auto;
+      }
     }
   }
 
