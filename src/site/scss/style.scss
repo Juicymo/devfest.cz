@@ -53,6 +53,9 @@ ol.toc li {
     text-rendering: auto;
     color: $blue-light;
     letter-spacing: 0.2px;
+    @media (max-width: 481px) {
+      font-size: 20px;
+    }
   }
   h1 a {
     color: #333 !important;
@@ -69,12 +72,21 @@ ol.toc li {
       width: 426px;
       text-align: left;
       margin: 0 auto;
+      @media (max-width: 767px) {
+        width: auto;
+        text-align: center;
+      }
     }
     .btn {
       width: 138px;
       position: absolute;
       right: 0;
       top: 0;
+      @media (max-width: 767px) {
+        position: static;
+        width: auto;
+        margin-bottom: 5px;
+      }
     }
   }
   .buttons li {
@@ -83,6 +95,15 @@ ol.toc li {
   .input-xlarge {
     padding-top: 9px;
     padding-bottom: 9px;
+    width: 270px;
+    height: 22px;
+    @media (max-width: 767px) {
+      min-height: 0;
+      box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      margin-bottom: 5px;
+    }
   }
 }
 
@@ -103,6 +124,9 @@ ol.toc li {
 .navbar a.brand {
   padding: 9px 20px 0 20px;
   font-size: $baseFontSize + 2;
+  @media (max-width: 767px) {
+    font-size: $baseFontSize;
+  }
   img {
     margin-right: 5px;
     margin-top: -4px;
@@ -166,10 +190,16 @@ article.homepage {
         margin-top: 10px;
         border: 1px solid $border-hero-unit;
         width: 100%;
+        @media (max-width: 767px) {
+          margin: 0 0 10px;
+        }
       }
       .likes iframe {
         border: none;
         width: auto;
+        @media (max-width: 767px) {
+          margin: 10px 0;
+        }
       }
     }
   }
@@ -180,11 +210,16 @@ article.homepage {
 
     li {
       display: inline-block;
+      margin-bottom: 10px;
     }
   }
 
   h1 {
       font-size: 40px;
+      @media (max-width: 481px) {
+        font-size: 20px;
+        line-height: 30px;
+      }
       line-height: 50px; 
       .big {
         font-size: 70px;
@@ -192,6 +227,10 @@ article.homepage {
         color: $blue-dark;
         display: block;
         margin: 20px 0 5px;
+        @media (max-width: 481px) {
+          font-size: 50px;
+          line-height: 50px;
+        }
       }
     }
 
@@ -244,6 +283,10 @@ article.homepage {
     }
   }
 
+}
+
+#mce-error-response, #mce-success-response {
+    font-weight: bold;
 }
 
 div.editor-current-version {
@@ -313,6 +356,9 @@ a.permalink {
 
   .tab-pane {
     min-height: 145px;
+    @media (max-width: 767px) {
+       min-height: 0;
+    }
   }
 }
 
@@ -359,6 +405,9 @@ a.permalink {
   }
   li {
     padding: 0 20px;
+    @media (max-width: 767px) {
+      padding: 0 5px;
+    }
   }
   .gug a:hover  {
     background-position: left bottom;
