@@ -1,11 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 /* Override bootstrap variables */
 $sansFontFamily: Arial, Helvetica, sans-serif !default;
 $baseFontSize: 14px !default;
 $baseLineHeight: 22px !default;
 
-$dartFont: 'Montserrat', sans-serif;
+$dartFont: 'Helvetica', sans-serif;
 
 @import "compass_twitter_bootstrap_awesome";
 
@@ -168,11 +166,6 @@ article.homepage {
 
   h1 {
     font-family: $dartFont;
-    -webkit-text-stroke: 1px;
-  }
-
-  h2 {
-    -webkit-text-stroke: 0.5px;
   }
 
   section {
