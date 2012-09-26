@@ -47,6 +47,31 @@ ol.toc li {
 
 .header {
   text-align: center;
+  margin-top: 20px;
+  h2 {
+    text-transform: none;
+    text-rendering: auto;
+    color: $blue-light;
+    letter-spacing: 0.2px;
+  }
+  h1 a {
+    color: #333 !important;
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+  .register {
+    margin-top: 30px;
+  }
+  .buttons li {
+    padding: 0 2px;
+  }
+  .input-xlarge {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
 }
 
 .search-query {
@@ -64,10 +89,11 @@ ol.toc li {
 
 /* override because we have an image in there */
 .navbar a.brand {
-  padding: 6px 20px 0 20px;
+  padding: 9px 20px 0 20px;
   font-size: $baseFontSize + 2;
   img {
     margin-right: 5px;
+    margin-top: -4px;
   }
 }
 
@@ -101,16 +127,15 @@ article.homepage {
 
   h1 {
     font-family: $dartFont;
-    -webkit-text-stroke: 1px; /* fixes horrible font rendering on windows, see https://code.google.com/p/chromium/issues/detail?id=137692 */
+    -webkit-text-stroke: 1px;
   }
 
   h2 {
-    text-transform: uppercase;
-    -webkit-text-stroke: 0.3px; /* fixes horrible font rendering on windows, see https://code.google.com/p/chromium/issues/detail?id=137692 */
+    -webkit-text-stroke: 0.5px;
   }
 
   section {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 
     .callouts {
       h2 {
@@ -124,6 +149,12 @@ article.homepage {
       p.img {
         text-align: center;
       }
+
+      iframe {
+        margin-top: 10px;
+        border: 1px solid $border-hero-unit;
+        width: 100%;
+      }
     }
   }
 
@@ -135,6 +166,18 @@ article.homepage {
       display: inline-block;
     }
   }
+
+  h1 {
+      font-size: 40px;
+      line-height: 50px; 
+      .big {
+        font-size: 70px;
+        line-height: 70px;
+        color: $blue-dark;
+        display: block;
+        margin: 20px 0 5px;
+      }
+    }
 
   #top-mast {
     text-align: center;
@@ -153,15 +196,6 @@ article.homepage {
 
       @media (min-width: 481px) {
         background-image: url('/imgs/Dart_Background-large-white-dartboard.jpg');
-      }
-    }
-
-    h1 {
-      font-size: 40px;
-      line-height: 60px; 
-      margin-bottom: 18px;
-      .big {
-        font-size: 60px;
       }
     }
 
@@ -227,7 +261,8 @@ a.permalink {
 
 .hero-unit {
   padding: 5px 15px 10px;
-  margin-top: -5px;
+  margin-top: -3px;
+  margin-bottom: 20px;
   overflow: auto;
   background: $background-hero-unit;
   border: 1px solid $border-hero-unit;
@@ -241,9 +276,24 @@ a.permalink {
 }
 
 .tab-content {
+  background: #FCFCFC;
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px 15px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;  
   h2 {
     border-bottom: none !important;
     text-transform: none !important;
+    margin-bottom: 10px !important;
+    color: $blue-dark;
+  }
+  a {
+    float: right;
+  }
+
+  .tab-pane {
+    min-height: 145px;
   }
 }
 
@@ -272,17 +322,12 @@ a.permalink {
   }
 }
 
-iframe {
-  margin-top: 10px;
-}
-
 footer {
   border-top: 1px solid #CECECE;
   background-color: #EFEFEF;
   color: $grayDark;
   font-size: $baseFontSize - 1;
   padding: 15px 0;
-  margin-top: 50px;
   ul {
     list-style: none;
     margin: 0;
