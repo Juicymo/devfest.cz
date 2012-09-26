@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" itemscope itemtype="http://schema.org/Event">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -7,6 +7,9 @@
 
   {% capture page_title %}{% if page.title %}{{ page.title }} | {%endif%}DevFest Praha{% endcapture %}
   <title>{{ page_title }}</title> 
+  <meta itemprop="name" content="DevFest">
+  <meta itemprop="image" content="/imgs/devfest-logo.png">
+  <meta itemprop="description" content="Jediný vývojářský festival v ČR">
 
 	<link rel="stylesheet" href="/css/style.css">
 	{% if page.header and page.header.css %}{% for css in page.header.css %}<link href="{{ css }}" rel="stylesheet" type="text/css">{% endfor %}{% endif %}
