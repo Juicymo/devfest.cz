@@ -1,9 +1,11 @@
-The dartlang.org site. Built with Jekyll (https://github.com/mojombo/jekyll)
-and hosted on App Engine.
+DevFest.cz
+==========
 
-File issues and bugs here: http://dartbug.com/new
+The devfest.cz site forked from dartlang.org repository (https://github.com/dart-lang/dartlang.org). 
 
-Fork and submit patches here: https://github.com/dart-lang/dartlang.org
+
+* Built with Jekyll (https://github.com/mojombo/jekyll)
+* Hosted on App Engine
 
 ORIENTATION
 
