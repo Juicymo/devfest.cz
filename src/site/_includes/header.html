@@ -32,14 +32,7 @@
 	})();
   </script>
 
-  <script>
-    window.twttr = (function (d,s,id) {
-      var t, js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
-      js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
-      return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
-    }(document, "script", "twitter-wjs"));
-  </script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </head>
 <body>
 
@@ -60,7 +53,9 @@
           <div class="nav-collapse">
             <ul class="nav pull-right">
               <li class="share-button gplus"><div class="g-plusone" data-size="medium" data-callback="gplus_pressed" data-annotation="none"></div></li>
-              <li class="share-button twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-hashtags="dartlang">Tweet</a></li>
+              <li class="share-button twitter">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="gughackathon" data-lang="cs" data-count="none">Tweet</a>                
+              </li>
             </ul>
           </div><!--/.nav-collapse -->    
         </div>
