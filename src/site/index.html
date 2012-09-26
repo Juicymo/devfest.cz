@@ -10,34 +10,30 @@ layout: default
     <div class="span12">
       <div class="header">
         <h1>
-          <a href="http://www.gug.cz" onclick="return !window.open(this.href);">Gug.cz</a> vás zve na <br />
+          <a href="http://www.gug.cz" onclick="return !window.open(this.href);">Gug.cz</a> vás zve na
           <span class="big">DevFest Praha</span>
         </h1> 
         <h2>Největší vývojářský festival v ČR</h2> 
-      </div>
-      <div class="register">
-        <p>
-          Zaujalo? Těšíte se na další info?
-        </p>
-        <input type="text">
-        <a href="#" class="btn btn-primary"><span class="big">Informujte mě</span>až se otevřou registrace</a>
-      </div>
-      <div>
+        <div class="register">
+          <p>
+            Zaujalo? Těšíte se na další info?
+          </p>
+          {% include register.html %}
+        </div> 
         <p>a/nebo</p>
-        <ul class="buttons">
+        <ul class="buttons menu">
           <li>
-            <a href="#">
+            <a href="#" class="btn" onclick="return !window.open(this.href);">
               Chci přednášet
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="btn" onclick="return !window.open(this.href);">
               Chci přihlásit aplikaci na GugCamp
             </a>
           </li>
         </ul>
       </div>
-      TODO liky
     </div>
   </div>
 </section>
@@ -55,7 +51,7 @@ layout: default
         Technická 4<br />
         Praha 6&nbsp;&nbsp;166 07
       </address>
-      <iframe width="550" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;ll=50.10957,14.393206&amp;spn=0.019266,0.047207&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+      <iframe width="270" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;hl=cs&amp;view=map&amp;ll=50.10379,14.391875&amp;spn=0.006881,0.012016&amp;z=15&amp;iwloc=near&addr&amp;output=embed"></iframe>
     </div>
 
     <div class="span3 when">
@@ -67,6 +63,7 @@ layout: default
       <p>
         Celý den plný zábavy, networkingu, přednášek a wait for it... <strong>zdrojových kódů</strong>. (v uvedeném pořadí! ;-))
       </p>
+      TODO liky
     </div>
 
     <div class="span6">
@@ -90,7 +87,7 @@ layout: default
         </ul>
       </div>
       <div id="nav-tabs">
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs menu">
           <li class="active"><a href="#devfest" data-toggle="tab">DevFest</a></li>
           <li><a href="#prednasky" data-toggle="tab">Přednášky</a></li>
           <li><a href="#gugcamp" data-toggle="tab">GugCamp</a></li>
@@ -125,8 +122,11 @@ layout: default
         </div>
       </div>
     </div>
-  </div> <!-- /.row -->
-<img class="logo" src="/imgs/devfest-logo.png" width="382" height="81" alt="Devfest Praha">       
+  </div> <!-- /.row --> 
+</section>
+
+<section id="logos">
+  todo logos     
 </section>
 
 </article> <!-- /.homepage -->
