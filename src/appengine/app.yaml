@@ -1,5 +1,5 @@
-application: dart-lang
-version: CHANGEME
+application: devfestpraha
+version: 1
 # NOTE: URL is CHANGEME.dart-lang.appspot.com
 #       To get your own staging server, change 'CHANGEME' to something
 #       like 'kathyw' or 'kathyw-dartium'.
@@ -26,48 +26,6 @@ pagespeed:
 #default_expiration: "1d"
 
 handlers:
-- url: /\+
-  script: scripts.redirector.application
-
-- url: /mailing-list
-  script: scripts.redirector.application
-
-- url: /docs/spec/dartLangSpec.*
-  script: scripts.redirector.application
-
-- url: /docs/getting-started/editor/.*
-  script: scripts.redirector.application
-
-- url: /editor.*
-  script: scripts.redirector.application
-
-- url: /news.*
-  script: scripts.redirector.application
-
-- url: /atom.xml
-  script: scripts.redirector.application
-
-- url: /docs/api/.*
-  script: scripts.redirector.application
-
-- url: /language-tour/.*
-  script: scripts.redirector.application
-
-- url: /docs/getting-started/sdk/.*
-  script: scripts.redirector.application
-
-- url: /resources/
-  script: scripts.redirector.application
-
-- url: /dartisans/podcast-feed
-  script: scripts.redirector.application
-
-- url: /hangouts.*
-  script: scripts.redirector.application
-
-- url: /eclipse/update.*
-  script: scripts.redirector.application
-
 - url: /(.*\.png)
   static_files: static/\1
   expiration: 1d
