@@ -64,6 +64,18 @@ ol.toc li {
   }
   .register {
     margin-top: 30px;
+    #mc_embed_signup {
+      position: relative;
+      width: 426px;
+      text-align: left;
+      margin: 0 auto;
+    }
+    .btn {
+      width: 138px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
   }
   .buttons li {
     padding: 0 2px;
@@ -287,6 +299,9 @@ a.permalink {
     text-transform: none !important;
     margin-bottom: 10px !important;
     color: $blue-dark;
+  }
+  p {
+    margin-bottom: 20px;
   }
   a {
     float: right;
