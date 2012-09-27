@@ -124,7 +124,8 @@ ol.toc li {
   font-size: $baseFontSize + 2;
   min-width: 350px;
   @media (max-width: 767px) {
-    font-size: $baseFontSize;
+    font-size: $baseFontSize - 2;
+    min-width: 0;
   }
   img {
     margin-right: 5px;
@@ -170,6 +171,9 @@ article.homepage {
 
   section {
     margin-bottom: 70px;
+    @media (max-width: 481px) {
+      margin-bottom: 30px;
+    }
 
     .callouts {
       h2 {
@@ -401,11 +405,22 @@ a.permalink {
   ul {
     margin: 0 auto;
     width: 430px;
+    @media (max-width: 481px) {
+      width: auto;
+    }
   }
   li {
     padding: 0 20px;
+    margin-bottom: 0;
     @media (max-width: 767px) {
       padding: 0 5px;
+    }
+    @media (max-width: 481px) {
+      float: none;
+      margin-bottom: 10px;
+      a {
+        margin: 0 auto;
+      }
     }
   }
   .gug a:hover  {
