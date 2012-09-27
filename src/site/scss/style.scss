@@ -21,7 +21,7 @@ $border-hero-unit: #ddd;
 
 body {
   padding-top: 60px;
-  background: $background-gray;
+  background: $background-gray url('../imgs/background.png') center -80px no-repeat;
 
 }
 /* place after the body + padding */
