@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs" itemscope itemtype="http://schema.org/Event">
+<html lang="cs" itemscope itemtype="http://schema.org/Event" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -36,6 +36,14 @@
 
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/cs_CZ/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <nav>
     <div class="navbar navbar-fixed-top">
@@ -54,7 +62,7 @@
           <div class="nav-collapse">
             <ul class="nav pull-right">
               <li class="share-button facebook">
-                    
+                <fb:like send="false" layout="button_count" width="140" show_faces="false"></fb:like>      
               </li>
               <li class="share-button twitter">
                 <a href="https://twitter.com/share" class="twitter-share-button" data-via="gughackathon" data-lang="cs" data-count="none">Tweet</a>                
