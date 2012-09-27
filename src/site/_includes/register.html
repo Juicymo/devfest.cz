@@ -78,6 +78,7 @@ function mce_init_form(){
       $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
       options = { url: 'http://gug.us4.list-manage1.com/subscribe/post-json?u=0da7a509ea18feb2638420b7f&id=2e05f8cef0&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
                     beforeSubmit: function(){
+                        manageSpinner();
                         $('#mce_tmp_error_msg').remove();
                         $('.datefield','#mc_embed_signup').each(
                             function(){
@@ -114,8 +115,6 @@ function mce_init_form(){
                     success: mce_success_cb
                 };
       $('#mc-embedded-subscribe-form').ajaxForm(options);
-      
-      
     });
 }
 function mce_success_cb(resp){
@@ -176,9 +175,11 @@ function mce_success_cb(resp){
                     $('#mce-'+resp.result+'-response').html(msg);
                 }
             }
+            hideSpinner();
         } catch(e){
             $('#mce-'+resp.result+'-response').show();
             $('#mce-'+resp.result+'-response').html(msg);
+            hideSpinner();
         }
     }
 }

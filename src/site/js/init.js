@@ -1,5 +1,33 @@
-$(document).ready(function(){
+function manageSpinner() {
+  if (!spinnerVisible) {
+    $(spinnerDiv).show();        
+    spinnerVisible = true;
+    spinnerInterval = setInterval(function() {
+      if ($('.register form .mc-field-group .mce_inline_error').size() > 0) { //simple inline error
+        hideSpinner();
+      }
+    }, 750);
+  }   
+}
 
+function hideSpinner() {
+  if (spinnerVisible) {
+    $(spinnerDiv).hide();
+    spinnerVisible = false;
+    clearInterval(spinnerInterval);
+  }    
+}
+
+var spinnerDiv, spinnerInterval;   
+var spinnerVisible = false;
+
+$(document).ready(function(){
+  //create spinner element
+  spinnerDiv = document.createElement('div');
+  $(spinnerDiv).attr('class', 'spinner');
+  $('.register form').append(spinnerDiv);
+
+  //auto rotating tabs
 	setInterval(function() {
     var tabs = $('#nav-tabs .nav-tabs > li'),
         active = tabs.filter('.active'),
@@ -9,6 +37,7 @@ $(document).ready(function(){
     toClick.trigger('click');
   }, 5000);
 
+  //text "Vas e-mail" for input in IEs, they does not support HTML5 placeholder attribute
   if ($.browser.msie && $.browser.version <= 9) {
       var formText = 'Váš e-mail';
 
@@ -26,30 +55,4 @@ $(document).ready(function(){
           }
       });
     }
-/*
-  if ($('.homepage').size()) {
-    var spinnerDiv, spinnerInterval;   
-    var spinnerVisible = false;
-
-    spinnerDiv = document.createElement('div');
-    $(spinnerDiv).attr('class', 'spinner');
-    $('.register form').append(spinnerDiv);
-
-    $('.register form').submit(function(){
-    
-      if (!spinnerVisible) {
-        $(spinnerDiv).show();        
-        spinnerVisible = true;
-        spinnerInterval = setInterval(function() {
-          if (($('.register form .mc-field-group .mce_inline_error').size() > 0)
-            || !$('.register form #mce-responses #mce-error-response:empty').size()
-            || !$('.register form #mce-responses #mce-success-response:empty').size()) {
-            $(spinnerDiv).hide();
-            spinnerVisible = false;
-            clearInterval(spinnerInterval);
-          }
-        }, 500);
-      }     
-    });   
-  }*/
 });
