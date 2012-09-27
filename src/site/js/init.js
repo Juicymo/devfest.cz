@@ -26,7 +26,7 @@ $(document).ready(function(){
           }
       });
     }
-
+/*
   if ($('.homepage').size()) {
     var spinnerDiv, spinnerInterval;   
     var spinnerVisible = false;
@@ -36,6 +36,7 @@ $(document).ready(function(){
     $('.register form').append(spinnerDiv);
 
     $('.register form').submit(function(){
+    
       if (!spinnerVisible) {
         $(spinnerDiv).show();        
         spinnerVisible = true;
@@ -48,7 +49,7 @@ $(document).ready(function(){
             clearInterval(spinnerInterval);
           }
         }, 500);
-      }      
+      }     
     });   
-  }
+  }*/
 });
