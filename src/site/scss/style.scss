@@ -397,6 +397,11 @@ a.permalink {
   h2 {
     color: $green-dark;
   }
+  a {
+    color: $blue-dark !important;
+    display: block;  
+    text-align: center !important;
+  }
 }
 
 .when {
