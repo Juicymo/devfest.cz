@@ -465,4 +465,15 @@ footer {
   }
 }
 
+.spinner {
+  display: none;
+  width: 16px;
+  height: 16px;
+  background: transparent url('../imgs/spinner.gif') top left no-repeat;
+  position: absolute;
+  z-index: 1000;
+  top: 12px;
+  left: 253px;
+}
+
 @import "syntax";
