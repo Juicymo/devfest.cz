@@ -1,9 +1,11 @@
 /* Override bootstrap variables */
-$sansFontFamily: Arial, Helvetica, sans-serif !default;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin,latin-ext);
+
+$sansFontFamily: 'Open Sans', Arial, Helvetica, sans-serif !default;
 $baseFontSize: 14px !default;
 $baseLineHeight: 22px !default;
 
-$dartFont: 'Helvetica', sans-serif;
+$dartFont: 'Open Sans', sans-serif;
 
 @import "compass_twitter_bootstrap_awesome";
 
@@ -51,9 +53,15 @@ ol.toc li {
     text-rendering: auto;
     color: $blue-light;
     letter-spacing: 0.2px;
+    font-weight: normal;
     @media (max-width: 481px) {
       font-size: 20px;
     }
+  }
+  p.motto {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
   }
   h1 a {
     color: #333 !important;
@@ -202,6 +210,9 @@ article.homepage {
         @media (max-width: 767px) {
           margin: 10px 0;
         }
+      }
+      .facebook iframe {
+        margin-top: 4px !important;
       }
     }
   }
