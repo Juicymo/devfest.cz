@@ -15,6 +15,13 @@
 	{% if page.header and page.header.css %}{% for css in page.header.css %}<link href="{{ css }}" rel="stylesheet" type="text/css">{% endfor %}{% endif %}
   <link href="https://plus.google.com/events/cpsgl7uq6nl5etv9lg2vqpup0f8" rel="publisher">
 
+  {% bundle %}
+  - /js/jquery-1.7.2.min.js
+  - /js/bootstrap-tab.js
+  - /js/bootstrap-collapse.js
+  - /js/init.js
+  {% endbundle %}
+
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

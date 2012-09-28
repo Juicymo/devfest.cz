@@ -1,6 +1,13 @@
+function computeSpinnerBackground(spinner) {
+  var inputWidth = $(spinnerInput).width();
+  var inputHeight = $(spinnerInput).height();
+
+  $(spinnerInput).css('background-position', (inputWidth-15)+'px center' )
+}
+
 function manageSpinner() {
   if (!spinnerVisible) {
-    $(spinnerDiv).show();        
+    $(spinnerInput).addClass('spinner');     
     spinnerVisible = true;
     spinnerInterval = setInterval(function() {
       if ($('.register form .mc-field-group .mce_inline_error').size() > 0) { //simple inline error
@@ -12,20 +19,19 @@ function manageSpinner() {
 
 function hideSpinner() {
   if (spinnerVisible) {
-    $(spinnerDiv).hide();
+    $(spinnerInput).removeClass('spinner');
     spinnerVisible = false;
     clearInterval(spinnerInterval);
   }    
 }
 
-var spinnerDiv, spinnerInterval;   
+var spinnerInput, spinnerInterval;   
 var spinnerVisible = false;
 
 $(document).ready(function(){
-  //create spinner element
-  spinnerDiv = document.createElement('div');
-  $(spinnerDiv).attr('class', 'spinner');
-  $('.register form').append(spinnerDiv);
+  //
+  spinnerInput = $('.register form .text');
+  computeSpinnerBackground(spinnerInput);
 
   //auto rotating tabs
 	setInterval(function() {

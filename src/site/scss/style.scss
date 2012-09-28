@@ -74,24 +74,22 @@ ol.toc li {
   .register {
     margin-top: 30px;
     #mc_embed_signup {
-      position: relative;
-      width: 426px;
-      text-align: left;
-      margin: 0 auto;
-      @media (max-width: 767px) {
-        width: auto;
-        text-align: center;
+      text-align: center;
+      @media (min-width: 768px) {       
+        width: 426px;
+        text-align: left;
+        margin: 0 auto;
+        position: relative;
       }
     }
     .btn {
-      width: 138px;
-      position: absolute;
-      right: 0;
-      top: 0;
-      @media (max-width: 767px) {
-        position: static;
-        width: auto;
-        margin-bottom: 5px;
+      margin-bottom: 5px;
+      @media (min-width: 768px) {
+        width: 138px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-bottom: 0;
       }
     }
   }
@@ -471,14 +469,7 @@ footer {
 }
 
 .spinner {
-  display: none;
-  width: 16px;
-  height: 16px;
   background: transparent url('../imgs/spinner.gif') top left no-repeat;
-  position: absolute;
-  z-index: 1000;
-  top: 12px;
-  left: 253px;
 }
 
 @import "syntax";
