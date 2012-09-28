@@ -131,6 +131,7 @@ ol.toc li {
   min-width: 350px;
   @media (max-width: 767px) {
     font-size: $baseFontSize - 2;
+    padding-right: 0;
     min-width: 0;
   }
   img {
@@ -469,7 +470,7 @@ footer {
 }
 
 .spinner {
-  background: transparent url('../imgs/spinner.gif') top left no-repeat;
+  background: white url('../imgs/spinner.gif') top left no-repeat;
 }
 
 @import "syntax";
