@@ -130,7 +130,7 @@ ol.toc li {
   font-size: $baseFontSize + 2;
   min-width: 350px;
   @media (max-width: 767px) {
-    font-size: $baseFontSize - 2;
+    font-size: $baseFontSize - 4;
     padding-right: 0;
     min-width: 0;
   }
@@ -447,6 +447,12 @@ a.permalink {
   }
   .google a:hover {
     background-position: right bottom;
+  }
+}
+
+.nav-collapse, .nav-collapse.collapse {
+  @media (max-width: 767px) {
+    overflow: auto !important;
   }
 }
 

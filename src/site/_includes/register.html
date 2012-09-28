@@ -13,6 +13,12 @@
     </form>
 </div>
 <script type="text/javascript">
+var spinnerInput, spinnerInterval;   
+var spinnerVisible = false;
+
+spinnerInput = $('.register form .text');
+computeSpinnerBackground(spinnerInput);
+
 var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';
 try {
     var jqueryLoaded=jQuery;
@@ -54,6 +60,34 @@ head.appendChild(style);
 setTimeout('mce_preload_check();', 250);
 
 var mce_preload_checks = 0;
+
+function computeSpinnerBackground(spinner) {
+  var inputWidth = $(spinnerInput).width();
+  var inputHeight = $(spinnerInput).height();
+
+  $(spinnerInput).css('background-position', (inputWidth-15)+'px center' )
+}
+
+function manageSpinner() {
+  if (!spinnerVisible) {
+    $(spinnerInput).addClass('spinner');     
+    spinnerVisible = true;
+    spinnerInterval = setInterval(function() {
+      if ($('.register form .mc-field-group .mce_inline_error').size() > 0) { //simple inline error
+        hideSpinner();
+      }
+    }, 750);
+  }   
+}
+
+function hideSpinner() {
+  if (spinnerVisible) {
+    $(spinnerInput).removeClass('spinner');
+    spinnerVisible = false;
+    clearInterval(spinnerInterval);
+  }    
+}
+
 function mce_preload_check(){
     if (mce_preload_checks>40) return;
     mce_preload_checks++;

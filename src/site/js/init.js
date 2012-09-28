@@ -1,38 +1,4 @@
-function computeSpinnerBackground(spinner) {
-  var inputWidth = $(spinnerInput).width();
-  var inputHeight = $(spinnerInput).height();
-
-  $(spinnerInput).css('background-position', (inputWidth-15)+'px center' )
-}
-
-function manageSpinner() {
-  if (!spinnerVisible) {
-    $(spinnerInput).addClass('spinner');     
-    spinnerVisible = true;
-    spinnerInterval = setInterval(function() {
-      if ($('.register form .mc-field-group .mce_inline_error').size() > 0) { //simple inline error
-        hideSpinner();
-      }
-    }, 750);
-  }   
-}
-
-function hideSpinner() {
-  if (spinnerVisible) {
-    $(spinnerInput).removeClass('spinner');
-    spinnerVisible = false;
-    clearInterval(spinnerInterval);
-  }    
-}
-
-var spinnerInput, spinnerInterval;   
-var spinnerVisible = false;
-
 $(document).ready(function(){
-  //
-  spinnerInput = $('.register form .text');
-  computeSpinnerBackground(spinnerInput);
-
   //auto rotating tabs
 	setInterval(function() {
     var tabs = $('#nav-tabs .nav-tabs > li'),
