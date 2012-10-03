@@ -63,6 +63,9 @@ ol.toc li {
     font-size: 18px;
     font-weight: bold;
   }
+  p em {
+    font-size: 12px;
+  }
   h1 a {
     color: #333 !important;
     text-decoration: none;
@@ -109,6 +112,11 @@ ol.toc li {
       margin-bottom: 5px;
     }
   }
+}
+
+.register-button .btn {
+  position: static !important;
+  margin-bottom: 10px !important;
 }
 
 .search-query {

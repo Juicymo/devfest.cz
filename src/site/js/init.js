@@ -7,7 +7,7 @@ $(document).ready(function(){
         toClick = next.length ? next.find('a') : tabs.eq(0).find('a');
 
     toClick.trigger('click');
-  }, 5000);
+  }, 15000);
 
   //text "Vas e-mail" for input in IEs, they does not support HTML5 placeholder attribute
   if ($.browser.msie && $.browser.version <= 9) {
