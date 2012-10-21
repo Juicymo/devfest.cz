@@ -63,10 +63,28 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="/" title="DevFest - Podzimní vývojářský festival">
-            <img src="/imgs/devfest-arrow.png" width="18" height="30" alt="DevFest arrow">
-            DevFest - Podzimní vývojářský festival
+            {% if page.type == "home" %}
+              <img class="pull-left" src="/imgs/devfest-arrow.png" width="20" height="35" alt="DevFest arrow">             
+            {%else%} 
+              <img class="pull-left" src="/imgs/devfest-logo-small.png" width="191" height="35" alt="DevFest Praha">
+            {%endif%}
+            <span class="hidden-desktop">DevFest - Podzimní vývojářský festival</span>
           </a>      
           <div class="nav-collapse">
+            <ul class="nav">
+              <li>
+                <a href="/">Úvod</a>   
+              </li>
+              <li>
+                <a href="/recnici">Řečníci</a>                  
+              </li> 
+              <li>
+                <a href="/program">Program</a>                  
+              </li> 
+              <li>
+                <a href="/misto">Místo</a>                  
+              </li> 
+            </ul>
             <ul class="nav pull-right">
               <li class="share-button facebook">
                 <fb:like send="false" layout="button_count" width="140" show_faces="false"></fb:like>      

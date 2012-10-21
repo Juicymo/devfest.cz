@@ -134,17 +134,13 @@ ol.toc li {
 
 /* override because we have an image in there */
 .navbar a.brand {
-  padding: 9px 20px 0 20px;
+  margin: 10px 15px 10px 0;
+  padding: 0;
   font-size: $baseFontSize + 2;
-  min-width: 350px;
   @media (max-width: 767px) {
     font-size: $baseFontSize - 4;
     padding-right: 0;
     min-width: 0;
-  }
-  img {
-    margin-right: 5px;
-    margin-top: -4px;
   }
 }
 
@@ -157,21 +153,30 @@ ol.toc li {
 }
 
 .navbar li.share-button {
-  padding: 8px 8px 0 0;
+  padding: 17px 8px 0 0;
     a {
       padding: 0; 
     }
 }
 
-.navbar .nav > li > a{
+.navbar .nav > li > a {
   opacity: 1;
   color: white;
+  line-height: 35px;
+}
+
+.navbar .nav > li > a:hover {
+  background: $blue-dark;
 }
 
 .navbar .nav li.dropdown .dropdown-toggle .caret, .navbar .nav li.dropdown.open .caret {
   border-top-color: $blue-dark;
   border-bottom-color: $blue-dark;
   opacity: 1;
+}
+
+.navbar .btn-navbar {
+  margin-top: 12px;
 }
 
 article.homepage {
@@ -351,7 +356,7 @@ a.permalink {
     width: 50%;
   }
   h2 {
-    color: $red-light !important;
+    color: $blue-dark !important;
   }
 }
 
