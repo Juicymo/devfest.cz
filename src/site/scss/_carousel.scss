@@ -1,0 +1,20 @@
+.carousel {
+    overflow: auto;
+}
+.carousel.js .carousel-wrap {
+    width:200px;
+    margin: 0 auto;
+}
+.carousel ul {
+    margin:0;
+    padding:0;
+}
+.carousel.js ul li {
+    display:inline;
+    float:left;
+    width:200px;
+    text-align:center;
+}
+.carousel .carousel-control {
+    display:none; /*we dont want it*/
+}

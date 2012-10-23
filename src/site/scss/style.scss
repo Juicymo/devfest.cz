@@ -492,4 +492,10 @@ footer {
   background: white url('../imgs/spinner.gif') top left no-repeat;
 }
 
-@import "syntax";
+#countdown {
+  width: 250px;
+  margin: 0 auto;
+}
+
+@import "countdown";
+@import "carousel";

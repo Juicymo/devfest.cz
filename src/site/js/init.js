@@ -11,20 +11,32 @@ $(document).ready(function(){
 
   //text "Vas e-mail" for input in IEs, they does not support HTML5 placeholder attribute
   if ($.browser.msie && $.browser.version <= 9) {
-      var formText = 'Váš e-mail';
+    var formText = 'Váš e-mail';
 
-      $('.register form .text').val(formText);
-  
-      $('.register form .text').click(function(){
-          if($(this).val() == formText) {
-              $(this).val('');
-          }
-      });
-  
-      $('.register form .text').blur(function(){
-          if($(this).val() == '') {
-              $('.register form .text').val(formText);
-          }
-      });
-    }
+    $('.register form .text').val(formText);
+
+    $('.register form .text').click(function(){
+        if($(this).val() == formText) {
+            $(this).val('');
+        }
+    });
+
+    $('.register form .text').blur(function(){
+        if($(this).val() == '') {
+            $('.register form .text').val(formText);
+        }
+    });
+  }
+
+  /* Countdown */
+  var dateString = "November 10, 2012 08:30:00";
+  var newDate = new Date(dateString); 
+  $('#countdown').countdown({until: newDate}); 
+
+  /* Carousel */
+  $("#carousel-main").carousel({ 
+    loop: true,
+    autoSlide: true,
+    autoSlideInterval: 5000
+  });
 });
