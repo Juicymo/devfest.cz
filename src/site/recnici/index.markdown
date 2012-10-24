@@ -46,7 +46,7 @@ table.recnici td span {
   <tr><td><a href="https://plus.google.com/106378848135270560799/posts">František Fuka</a></td>
   <td><span>Jak funguje hudební harmonie a jak skládat hudbu z geekovsko-matematického hlediska</span></td></tr>
   <tr><td><a href="https://plus.google.com/101409281065555048852/posts">Daniel Steigerwald</a></td>
-  <td><span>TodoMVC v Este.js. Srovnání s imlementacemi</span></td></tr>
+  <td><span>TodoMVC v Este.js. Srovnání s implementacemi</span></td></tr>
   <tr><td><a href="https://plus.google.com/116417566983382224278/posts">Vladimír Třebický</a></td>
   <td><span>MapReduce</span></td></tr>
   <tr><td><a href="https://plus.google.com/111481300807306128237/posts">Jiří Knesl</a></td>
