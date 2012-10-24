@@ -39,4 +39,17 @@ $(document).ready(function(){
     autoSlide: true,
     autoSlideInterval: 5000
   });
+
+  $("#lifestream").lifestream({
+    list:[
+      {
+        service: "facebook_page",
+        user: "156528027719650"
+      },
+      {
+        service: "twitter",
+        user: "gughackathon"
+      }
+    ]
+  });
 });
