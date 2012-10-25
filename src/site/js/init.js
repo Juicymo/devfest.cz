@@ -29,27 +29,34 @@ $(document).ready(function(){
   }
 
   /* Countdown */
-  var dateString = "November 10, 2012 08:30:00";
-  var newDate = new Date(dateString); 
-  $('#countdown').countdown({until: newDate}); 
+  if ($('.homepage #countdown').size() > 0) {
+    var dateString = "November 10, 2012 08:30:00";
+    var newDate = new Date(dateString); 
+    $('#countdown').countdown({until: newDate}); 
+  }
+  
 
   /* Carousel */
-  $("#carousel-main").carousel({ 
-    loop: true,
-    autoSlide: true,
-    autoSlideInterval: 5000
-  });
+  if ($('.homepage #carousel-main').size() > 0) {
+    $("#carousel-main").carousel({ 
+      loop: true,
+      autoSlide: true,
+      autoSlideInterval: 5000
+    });
+  }
 
-  $("#lifestream").lifestream({
-    list:[
-      {
-        service: "facebook_page",
-        user: "156528027719650"
-      },
-      {
-        service: "twitter",
-        user: "gughackathon"
-      }
-    ]
-  });
+  if ($('.homepage #lifestream').size() > 0) {
+    $("#lifestream").lifestream({
+      list:[
+        {
+          service: "facebook_page",
+          user: "156528027719650"
+        },
+        {
+          service: "twitter",
+          user: "gughackathon"
+        }
+      ]
+    });
+  }
 });

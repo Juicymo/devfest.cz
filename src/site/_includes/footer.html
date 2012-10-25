@@ -15,10 +15,12 @@
 - /js/jquery-1.7.2.min.js
 - /js/bootstrap-tab.js
 - /js/bootstrap-collapse.js
+	{% if page.type == "home" %}
 - /js/jquery.countdown.js
 - /js/jquery.countdown-cs.js
 - /js/jquery.carousel.js
-- /js/jquery.lifestream.min.js
+- /js/jquery.lifestream.min.js        
+	{%endif%}
 - /js/init.js
 {% endbundle %}
 </body>
