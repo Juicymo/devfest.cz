@@ -497,5 +497,10 @@ footer {
   margin: 0 auto;
 }
 
+#speakers .speaker {
+  max-width: 250px;
+  float: left;
+}
+
 @import "countdown";
 @import "carousel";
