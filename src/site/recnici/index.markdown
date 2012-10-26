@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Recnici na DevFestu Praha 2012"
+title: "Řečníci"
 ---
 
 
