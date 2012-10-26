@@ -497,9 +497,47 @@ footer {
   margin: 0 auto;
 }
 
-#speakers .speaker {
-  max-width: 250px;
-  float: left;
+#speakers {
+  .speaker {
+    width: 200px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+  }
+  .info {
+    margin-top: -50px;
+    background: transparent url('../imgs/arrow.png') top left no-repeat;
+    color: white;
+    position: relative;
+    z-index: 5;
+    height: 130px;
+    transition: margin-top 1s;
+    -moz-transition: margin-top 1s; /* Firefox 4 */
+    -webkit-transition: margin-top 1s; /* Safari and Chrome */
+    -o-transition: margin-top 1s; /* Opera */
+  }
+  .web {
+    background-position: -200px 0; 
+  }
+  .other {
+    background-position: -600px 0;
+  }
+  .speaker:hover .info {
+      margin-top: -130px;
+  }
+  h2, h3 {
+    text-align: center;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 18px;    
+    padding-top: 22px;
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px 5px 0;
+  }
 }
 
 @import "countdown";
