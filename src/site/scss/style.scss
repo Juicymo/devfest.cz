@@ -10,11 +10,13 @@ $baseLineHeight: 22px !default;
 /* colors from logo */
 $blue-dark: #0081C6;
 $blue-light: #00A4E4;
+$blue-wall: #c4deec;
 $green-dark: #00D2B8;
 $green-light: #55DDCA;
 $green-dark: #05974f;
 $yellow-dark: #f9c53a;
 $red-light: #d94a3f;
+$red-wall: #f0d3d0;
 $background-gray: #f5f5f5;
 $background-hero-unit: #fcfcfc;
 $border-hero-unit: #ddd;
@@ -438,6 +440,23 @@ footer {
     font-size: 14px;
     font-weight: normal;
     padding: 15px 5px 0;
+  }
+}
+
+#lifestream ul {
+  list-style: none;
+  margin: 0;
+  li {
+    padding: 5px 0;
+    border-bottom: 1px solid $border-hero-unit;
+    overflow: auto;
+  }
+  li:hover {
+    background: white;
+  }
+  i {
+    color: $border-hero-unit;
+    margin-left: 5px;
   }
 }
 

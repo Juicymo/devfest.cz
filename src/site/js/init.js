@@ -58,11 +58,17 @@ $(document).ready(function(){
       list:[
         {
           service: "facebook_page",
-          user: "156528027719650"
+          user: "156528027719650",
+          template: {
+            wall_post: '<a href="${link}">${title}</a><i class="icon-facebook pull-right"></i>'
+          }
         },
         {
           service: "twitter",
-          user: "gughackathon"
+          user: "gughackathon",
+          template: {
+            posted: '{{html tweet}}<i class="icon-twitter pull-right"></i>'
+          }
         }
       ]
     });
