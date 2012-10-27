@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "O akci DevFest Praha 2012"
+title: "O akci"
 ---
 
 

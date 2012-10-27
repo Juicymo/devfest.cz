@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Program DevFestu Praha 2012"
+title: "Program"
 ---
 
 

@@ -22,23 +22,23 @@ type: home
           </p>
           {% include register.html %}
         </div> 
-      </div>
-      <p>DevFest Praha 2012 začíná již za</p>
-      <div id="countdown">
-        <ul class="menu menu-h">
-          <li>
-            <span id="days"></span> Dní
-          </li>
-          <li>
-            <span id="hours"></span> Hodin
-          </li>
-          <li>
-            <span id="minutes"></span> Minut
-          </li>
-          <li>
-            <span id="seconds"></span> Vteřin
-          </li>
-        </ul>    
+        <p>DevFest Praha 2012 začíná již za</p>
+        <div id="countdown">
+          <ul class="menu menu-h">
+            <li>
+              <span id="days"></span> Dní
+            </li>
+            <li>
+              <span id="hours"></span> Hodin
+            </li>
+            <li>
+              <span id="minutes"></span> Minut
+            </li>
+            <li>
+              <span id="seconds"></span> Vteřin
+            </li>
+          </ul>    
+        </div>
       </div>
     </div>
   </div>
@@ -88,26 +88,32 @@ type: home
   <div class="row callouts">
     <div class="span6 where">
       <h2><i class="icon-home"></i> Kdy a kde?</h2>
-      <p>
-        V sobotu <strong>10. listopadu</strong>.<br />
-        Od 9:00 do 18:00.
-      </p>
-      <p>
-        V prostorách ČVUT - <strong>Fakulty strojní</strong>, <br />
-        v Praze v Dejvicích.
-      </p>
-      <address>
-        Technická 4<br />
-        Praha 6&nbsp;&nbsp;166 07
-      </address>
+      <div class="row">
+        <div class="span3 date">
+          <p>
+            V sobotu <strong>10. listopadu</strong>.<br />
+            Od 9:00 do 18:00.
+          </p>
+        </div> 
+        <div class="span3 address">
+          <p>
+            V prostorách ČVUT - <strong>Fakulty strojní</strong>, <br />
+            v Praze v Dejvicích.
+          </p>
+          <address>
+            Technická 4<br />
+            Praha 6&nbsp;&nbsp;166 07
+          </address>
+        </div> 
+      </div>
       <iframe width="270" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;hl=cs&amp;view=map&amp;ll=50.10379,14.391875&amp;spn=0.006881,0.012016&amp;z=15&amp;iwloc=near&addr&amp;output=embed"></iframe>
-      <a target="_blank" class="map-link" href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;brcurrent=5,0,0&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Zvětšit mapu</a>
+      <a target="_blank" class="map-link" href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;brcurrent=5,0,0&amp;z=16&amp;iwloc=A&amp;source=embed"><i class="icon-map-marker"></i> Zvětšit mapu</a>
     </div>
 
     <div class="span6">
       <div class="hero-unit">
         <h2><i class="icon-user"></i> Co vás čeká?</h2>
-        <ul class="menu left">
+        <ul class="menu pull-left">
           <li>Přednášky o #Androidu a #Webu</li>
           <li>Googlery</li>
           <li>Failcon</li>
@@ -115,7 +121,7 @@ type: home
           <li>FightClub</li>
           <li>NerdRock</li>
         </ul>
-        <ul class="menu left">
+        <ul class="menu pull-left">
           <li>AR Drone</li>
           <li>Office Hours</li>
           <li>Android Expo</li>
@@ -137,30 +143,18 @@ type: home
           <div class="tab-pane active" id="festival">
             <h2>Podzimní vývojářský festival</h2>
             <p>Den plný technologií, zážitků, networkingu, přednášek a kódu (v uvedeném pořadí)!</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDh6RkxkNVQ1V0R5WW9uMEpZVjFCVFE6MA" target="_blank">
-              Registrace
-            </a>
           </div>
           <div class="tab-pane" id="prednasky">
             <h2>Přednášky o Androidu a Webdevelopmentu</h2>
             <p>Máme připraveny přednášky od skutečných odborníků, máte možnost se k nim přidat.</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEVvbHI4dlBLeVhWS2p4N0tDNjRDakE6MQ#gid=0" target="_blank">
-              Chci se k nim přidat
-            </a>
           </div>
           <div class="tab-pane" id="gugcamp">
             <h2>GUGCamp</h2>
             <p>Přehlídka vašich aplikací s Google technologiemi a vybrání té nejlepší z nich.</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGs4Z1hCQi02dWgxWFBoUXhSamFpR1E6MA#gid=0"target="_blank">
-              Chci přihlásit aplikaci na GUGCamp
-            </a>
           </div>
           <div class="tab-pane" id="fightclub">
             <h2>FightClub</h2>
             <p>Souboj vývojářů mobilních platforem, dva týmy, jedno zadání. Realtime!</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEZGNVl6Vm9IdWlGcXM4UkdUYnl1bHc6MA#gid=0" target="_blank">
-              Chci soutěžit ve FightClubu
-            </a>
           </div>
           <div class="tab-pane" id="failcon">
             <h2>Failcon</h2>
@@ -183,12 +177,11 @@ type: home
 <section>
   <div class="row callouts">
     <div class="span6 we">
-      <h2><i class="icon-home"></i> My o DevFestu</h2>
+      <h2><i class="icon-play"></i> My o DevFestu</h2>
       <iframe width="560" height="315" src="http://www.youtube.com/embed/6FoUWoPkFXU" frameborder="0" allowfullscreen></iframe>
-      todo obrazky
     </div>
     <div class="span6 you">
-      <h2><i class="icon-home"></i> Vy o DevFestu</h2>
+      <h2><i class="icon-comment"></i> DevFest na sociálních sítích</h2>
       <div id="lifestream">&nbsp;</div>
     </div>
   </div>

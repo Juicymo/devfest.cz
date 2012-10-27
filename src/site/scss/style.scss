@@ -5,8 +5,6 @@ $sansFontFamily: 'Open Sans', Arial, Helvetica, sans-serif !default;
 $baseFontSize: 14px !default;
 $baseLineHeight: 22px !default;
 
-$dartFont: 'Open Sans', sans-serif;
-
 @import "compass_twitter_bootstrap_awesome";
 
 /* colors from logo */
@@ -24,11 +22,14 @@ $border-hero-unit: #ddd;
 body {
   padding-top: 60px;
   background: $background-gray url('../imgs/background.png') center -80px no-repeat;
-
 }
 
 h1 {
-  margin: 20px 0 30px !important;
+  margin: 20px 0 10px !important;
+}
+
+address {
+  margin-bottom: 25px;
 }
 
 .menu {
@@ -51,15 +52,10 @@ section {
 
   .callouts {
     h2 {
-      font-family: $dartFont;
       border-bottom: 4px solid;
       line-height: 30px;
       margin-bottom: 5px;
       padding-top: 3px;
-    }
-
-    p.img {
-      text-align: center;
     }
 
     iframe {
@@ -86,17 +82,6 @@ section {
 /* place after the body + padding */
 @import "compass_twitter_bootstrap_responsive";
 
-.alert {
-  a {
-    color: $linkColorHover;
-    text-decoration: underline;
-  }
-}
-
-ol.toc li {
-  list-style-type: none;
-}
-
 .header {
   text-align: center;
   margin-top: 20px;
@@ -110,11 +95,6 @@ ol.toc li {
       font-size: 20px;
     }
   }
-  p.motto {
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: bold;
-  }
   p em {
     font-size: 13px;
   }
@@ -122,12 +102,17 @@ ol.toc li {
     color: #333 !important;
     text-decoration: none;
   }
-
   p {
     margin-bottom: 5px;
+    text-align: center;
+  }
+  .motto {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
   }
   .register {
-    margin-top: 30px;
+    margin: 30px 0;
     #mc_embed_signup {
       text-align: center;
       @media (min-width: 768px) {       
@@ -171,17 +156,12 @@ ol.toc li {
   margin-bottom: 10px !important;
 }
 
-.search-query {
-  width: 100px;
+#mce-error-response, #mce-success-response {
+    font-weight: bold;
 }
 
 .btn-primary {
   @include bootstrap-buttonBackground($blue-dark, $blue-light);
-}
-
-.thumbnail {
-  background-color: whitesmoke;
-  padding: 15px;
 }
 
 /* override because we have an image in there */
@@ -230,8 +210,13 @@ ol.toc li {
   opacity: 1;
 }
 
-article.homepage {
+.nav-collapse, .nav-collapse.collapse {
+  @media (max-width: 767px) {
+    overflow: auto !important;
+  }
+}
 
+article.homepage {
   ul.buttons {
     text-align: center;
     list-style: none;
@@ -262,93 +247,10 @@ article.homepage {
         }
       }
     }
-
-  #top-mast {
-    text-align: center;
-    margin-bottom: 30px;
-
-    .logo {
-      margin-bottom: 36px;
-      position: relative;
-      left: -28px;
-    }
-
-    .contents {
-      padding-top: 30px;
-      background-repeat: no-repeat;
-      background-position: center bottom;
-
-      @media (min-width: 481px) {
-        background-image: url('/imgs/Dart_Background-large-white-dartboard.jpg');
-      }
-    }
-
-    p {
-      font-size: 18px;
-      font-weight: 200;
-      line-height: $baseLineHeight * 1.5;
-      color: $heroUnitLeadColor;
-    }
-
-    ul.buttons {
-      margin-top: 40px;
-
-      li {
-        margin: 0 1em;
-        vertical-align: top;
-        width: 180px;
-        height: 73px;
-      }
-    }
-  }
-
-  .overview-transition {
-    text-align: center;
-
-    h1 {
-      font-size: 50px;
-      color: #AAA;
-    }
-  }
-
-}
-
-#mce-error-response, #mce-success-response {
-    font-weight: bold;
-}
-
-div.editor-current-version {
-  font-style: italic;
-  margin-bottom: 11px;
-}
-
-section.article div.author-and-date {
-  font-style: italic;
-}
-
-label.os-choice {
-  display: inline;
-}
-
-a.permalink {
-  margin-left: 0.5em;
-  display:none;
-}
-
-.has-permalink:hover > a.permalink {
-  display:inline;
-}
-
-.book {
-  margin-bottom: 2em;
-  img.cover {
-    box-shadow: 8px 8px 15px #CCC;
-  }
 }
 
 .hero-unit {
   padding: 5px 15px 10px;
-  margin-top: -3px;
   margin-bottom: 20px;
   overflow: auto;
   background: $background-hero-unit;
@@ -359,6 +261,30 @@ a.permalink {
   }
   h2 {
     color: $blue-dark !important;
+  }
+}
+
+.where {
+  h2 {
+    color: $green-dark;
+    margin-top: 5px;
+  }
+  a {
+    color: $blue-dark !important;
+    display: block;  
+    text-align: center !important;
+  }
+}
+
+.we {
+  h2 {
+    color: $red-light;
+  }
+}
+
+.you {
+  h2 {
+    color: $yellow-dark;
   }
 }
 
@@ -383,7 +309,7 @@ a.permalink {
   }
 
   .tab-pane {
-    min-height: 145px;
+    min-height: 140px;
     @media (max-width: 767px) {
        min-height: 0;
     }
@@ -397,31 +323,6 @@ a.permalink {
 
 .menu-h li {
     float: left;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.where {
-  h2 {
-    color: $green-dark;
-  }
-  a {
-    color: $blue-dark !important;
-    display: block;  
-    text-align: center !important;
-  }
-}
-
-.when {
-  h2 {
-    color: $yellow-dark;
-  }
 }
 
 .logos {
@@ -462,12 +363,6 @@ a.permalink {
   }
   .google a:hover {
     background-position: right bottom;
-  }
-}
-
-.nav-collapse, .nav-collapse.collapse {
-  @media (max-width: 767px) {
-    overflow: auto !important;
   }
 }
 
