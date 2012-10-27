@@ -29,12 +29,20 @@ $(document).ready(function(){
   }
 
   /* Countdown */
-  if ($('.homepage #countdown').size() > 0) {
-    var dateString = "November 10, 2012 08:30:00";
-    var newDate = new Date(dateString); 
-    $('#countdown').countdown({until: newDate}); 
-  }
-  
+  $('#countdown').countdown(new Date("November 10, 2012 08:30:00"), function(event) {
+    var $this = $(this);
+    switch(event.type) {
+      case "seconds":
+      case "minutes":
+      case "hours":
+      case "days":
+        $this.find('span#'+event.type).html(event.value);
+        break;
+      case "finished":
+        $this.hide();
+        break;
+    }
+  });  
 
   /* Carousel */
   if ($('.homepage #carousel-main').size() > 0) {

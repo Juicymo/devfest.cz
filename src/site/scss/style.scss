@@ -31,6 +31,17 @@ h1 {
   margin: 20px 0 30px !important;
 }
 
+.menu {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  margin: 0;
+}
+
+.menu-h li {
+    float: left;
+}
+
 section {
   margin-bottom: 70px;
   overflow: auto;
@@ -481,11 +492,6 @@ footer {
 
 .spinner {
   background: white url('../imgs/spinner.gif') top left no-repeat;
-}
-
-#countdown {
-  width: 250px;
-  margin: 0 auto;
 }
 
 #speakers {
