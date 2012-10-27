@@ -21,8 +21,6 @@ $background-gray: #f5f5f5;
 $background-hero-unit: #fcfcfc;
 $border-hero-unit: #ddd;
 
-@import "compass_twitter_bootstrap_responsive";
-
 body {
   padding-top: 60px;
   background: $background-gray url('../imgs/background.png') center -80px no-repeat;
@@ -75,6 +73,7 @@ section {
 }
 
 /* place after the body + padding */
+@import "compass_twitter_bootstrap_responsive";
 
 .alert {
   a {
@@ -176,9 +175,12 @@ ol.toc li {
 
 /* override because we have an image in there */
 .navbar a.brand {
-  margin: 10px 15px 10px 0;
-  padding: 0;
+  padding: 9px 5px 0 20px;
   font-size: $baseFontSize + 2;
+  img {
+    margin-right: 5px;
+    margin-top: -4px;
+  }
   @media (max-width: 767px) {
     font-size: $baseFontSize - 4;
     padding-right: 0;
@@ -195,7 +197,7 @@ ol.toc li {
 }
 
 .navbar li.share-button {
-  padding: 17px 8px 0 0;
+  padding: 10px 8px 0 0;
     a {
       padding: 0; 
     }
@@ -204,7 +206,7 @@ ol.toc li {
 .navbar .nav > li > a {
   opacity: 1;
   color: white;
-  line-height: 35px;
+  padding-top: 10px;
 }
 
 .navbar .nav > li > a:hover {
@@ -215,10 +217,6 @@ ol.toc li {
   border-top-color: $blue-dark;
   border-bottom-color: $blue-dark;
   opacity: 1;
-}
-
-.navbar .btn-navbar {
-  margin-top: 12px;
 }
 
 article.homepage {
