@@ -518,11 +518,31 @@ footer {
     height: 100%;
   }
   .blocks {
+    .program-item-text {
+      line-height: 1.2;
+      text-align: center;
+      color: white;
+    }
+    h2 {
+      font-size: 24px;
+      padding: 10px 20px 5px 30px;
+    }
+    p {
+      padding: 0 30px 10px 10px;
+    }
     .row {
       margin-left: 0;
     }
   }
   .blocks .program-item-text {
+    img {
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+      border-radius: 40px;
+      -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+    }
     .android {
       background: $green-dark;
     }
@@ -542,6 +562,7 @@ footer {
       }
       .inside-2 {
         background: transparent url('../imgs/program-arrow.png') right -208px no-repeat;
+        position: relative;
       }
     }
   }

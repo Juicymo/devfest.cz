@@ -51,6 +51,7 @@ blabla vyrábíme
 						<div class="inside-2">
 							<h2>Rich Hyndman</h2>
 							<p>What's New in Android</p>
+							<img src="/data/imgs/recnici/rich-hyndman-small.jpg" width="40" height="40" alt="Rich Hyndman" />
 						</div>
 					</div>
 					
@@ -58,24 +59,27 @@ blabla vyrábíme
 				<div class="span2 web">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Rich Hyndman</h2>
-							<p>What's New in Android</p>
+							<h2>Daniel Steigerwald</h2>
+							<p>TodoMVC v Este.js. Srovnání s imlementacemi</p>
+							<img src="/data/imgs/recnici/daniel-steigerwald-small.jpg" width="40" height="40" alt="Daniel Steigerwald" />
 						</div>
 					</div>
 				</div>
 				<div class="span2 other">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Rich Hyndman</h2>
-							<p>What's New in Android</p>
+							<h2>Ivan Kutil</h2>
+							<p>Zkušenosti s Chrome Extension aneb jak 3Dnator! získal 85 000+ uživatelů</p>
+							<img src="/data/imgs/recnici/ivan-kutil-small.jpg" width="40" height="40" alt="Ivan Kutil" />
 						</div>
 					</div>
 				</div>
 				<div class="span2 lab">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Rich Hyndman</h2>
-							<p>What's New in Android</p>
+							<h2>Radek Pavlíček</h2>
+							<p>Accessibility CodeLab</p>
+							<img src="/data/imgs/recnici/radek-pavlicek-small.jpg" width="40" height="40" alt="Radek Pavlíček" />
 						</div>
 					</div>
 				</div>
