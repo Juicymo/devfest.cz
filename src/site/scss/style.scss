@@ -447,6 +447,12 @@ footer {
       background-position: -600px 0;
     }   
   }
+  .lab {
+    border-color: $yellow-dark;
+    .info {
+      background-position: -400px 0; 
+    }    
+  }
   .speaker:hover .info {
       margin-top: -130px;
   }
