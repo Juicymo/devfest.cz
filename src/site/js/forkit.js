@@ -37,7 +37,7 @@
 		detachedText = '',
 
 		friction = 1.04;
-		gravity = 1.5,
+		gravity = 4,
 
 		// Resting position of the ribbon when curtain is closed
 		closedX = TAG_WIDTH * 0.4,
@@ -180,7 +180,7 @@
 		else {
 
 			// Detach the tag when hovering close enough
-			if( distance < TAG_WIDTH * 1.5 ) {
+			if( distance < TAG_WIDTH * 0.4 ) {
 				detach();
 			}
 			// Re-attach the tag if the user moved away

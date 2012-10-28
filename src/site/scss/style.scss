@@ -471,6 +471,114 @@ footer {
   }
 }
 
+#program {
+  @media (min-width: 1200px) {
+    .span10 .span2 {
+      width: 200px;
+      margin: 0;
+    }      
+  }
+  h2 {
+    line-height: 1.2;
+    font-size: 30px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .program-item {
+    margin-bottom: 25px;
+  }
+  .program-item-time {
+    font-size: 40px;
+    line-height: 1;    
+    font-weight: bold;   
+    .border span {
+      display: block;
+      float: left;
+      width: 25px;
+      height: 5px;
+    }    
+    .blue {
+      background: $blue-dark;
+    }
+    .red {
+      background: $red-light;
+    }
+    .yellow {
+      background: $yellow-dark;
+    }
+    .green {
+      background: $green-dark;
+    }
+  } 
+  .program-item-text {
+    margin-left: 0;
+  }
+  .inside-1, .inside-2 {
+    height: 100%;
+  }
+  .blocks {
+    .row {
+      margin-left: 0;
+    }
+  }
+  .blocks .program-item-text {
+    .android {
+      background: $green-dark;
+    }
+    .web {
+      background: $blue-dark;
+    }
+    .other {
+      background: $red-light;
+    }
+    .lab {
+      background: $yellow-dark;
+    }
+    .span2 {
+      height: 208px;
+      .inside-1 {
+        background: transparent url('../imgs/program-arrow.png') top left no-repeat;
+      }
+      .inside-2 {
+        background: transparent url('../imgs/program-arrow.png') right -208px no-repeat;
+      }
+    }
+  }
+  .long {
+    .time {
+      padding-bottom: 5px;
+      float: left;
+      border-bottom: 5px solid black;
+    }
+    .program-item-text {   
+      height: 119px;
+      margin-left: 0;
+      width: 800px;
+      .inside-1 {
+        background: transparent url('../imgs/program-arrow.png') left -416px no-repeat;
+      }
+      .inside-2 {
+        padding: 10px 10px 10px 60px;
+        background: transparent url('../imgs/program-arrow.png') right -535px no-repeat;
+      }
+    }
+  } 
+  .keynote {
+    .time {
+      border-color: #f7de9b;
+    }
+    .program-item-text {
+      background: #f7de9b url('../imgs/program-bg.png') top left repeat;
+    }
+  }
+  .full {
+    .program-item-text {
+      text-align: center;
+    }
+  }
+}
+
 #lifestream ul {
   list-style: none;
   margin: 0;
