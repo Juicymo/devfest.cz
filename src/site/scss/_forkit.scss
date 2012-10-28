@@ -1,7 +1,11 @@
 .forkit {
-	position: fixed;
 	right: 60px;
 	top: 0;
+	position: fixed;
+	@media (max-width: 979px) {
+		position: absolute;
+		right: 120px;
+	}
 	z-index: 2500;
 	width: 60px;
 	height: 100px;
@@ -35,6 +39,10 @@
 	position: fixed;
 	width: 100%;
 	height: 100%;
+	@media (max-width: 979px) {
+		position: absolute;
+		height: 400px;
+	}
 	left: 0;
 	z-index: 2000;
 	text-align: center;

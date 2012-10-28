@@ -37,7 +37,7 @@
 		detachedText = '',
 
 		friction = 1.04;
-		gravity = 4,
+		gravity = 1.5,
 
 		// Resting position of the ribbon when curtain is closed
 		closedX = TAG_WIDTH * 0.4,
@@ -166,6 +166,11 @@
 		update();
 		render();
 
+		if (state == STATE_CLOSED) {
+			dom.curtain.style.display = "none";
+		} else {
+			dom.curtain.style.display = "block";
+		}
 		requestAnimFrame( animate );
 	}
 
