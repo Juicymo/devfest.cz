@@ -68,18 +68,35 @@ section {
         margin: 0 0 10px;
       }
     }
-    .likes iframe {
-      border: none;
-      width: auto;
-      @media (max-width: 767px) {
-        margin: 10px 0;
-      }
-    }
     .facebook iframe {
       margin-top: 4px !important;
     }
   }
 }
+
+.likes {
+  width: 500px;
+  margin: 0 auto !important;
+  overflow: auto;
+  li {
+    float: left;
+    margin: 0 5px;
+    iframe {
+      border: none;
+      width: auto;
+    }
+  }
+  .twitter {
+    margin-top: 2px;
+  }
+  .facebook {
+    margin-top: 6px;
+  }
+}
+
+
+
+
 
 /* place after the body + padding */
 @import "compass_twitter_bootstrap_responsive";
@@ -265,16 +282,15 @@ article.homepage {
     color: $blue-dark !important;
   }
 }
-
+.where a, .we a {
+  text-align: center !important;
+  color: $blue-dark !important;
+  display: block; 
+}
 .where {
   h2 {
     color: $green-dark;
     margin-top: 5px;
-  }
-  a {
-    color: $blue-dark !important;
-    display: block;  
-    text-align: center !important;
   }
 }
 
