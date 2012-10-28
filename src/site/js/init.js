@@ -47,12 +47,8 @@ $(document).ready(function(){
   }    
 
   /* Carousel */
-  if ($('.homepage #carousel-main').size() > 0) {
-    $("#carousel-main").carousel({ 
-      loop: true,
-      autoSlide: true,
-      autoSlideInterval: 5000
-    });
+  if ($('.carousel').size() > 0) {
+    $('.carousel').carousel();
   }
 
   $('.forkit-curtain').show();

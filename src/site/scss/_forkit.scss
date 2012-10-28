@@ -4,7 +4,7 @@
 	top: 0;
 	z-index: 2500;
 	width: 60px;
-	height: 150px;
+	height: 100px;
 	text-decoration: none;
 	.tag {
 		display: block;
@@ -43,6 +43,7 @@
 	display: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 	.close-button {
 		position: absolute;
 		width: 32px;
