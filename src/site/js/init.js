@@ -29,20 +29,22 @@ $(document).ready(function(){
   }
 
   /* Countdown */
-  $('#countdown').countdown(new Date("November 10, 2012 08:30:00"), function(event) {
-    var $this = $(this);
-    switch(event.type) {
-      case "seconds":
-      case "minutes":
-      case "hours":
-      case "days":
-        $this.find('span#'+event.type).html(event.value);
-        break;
-      case "finished":
-        $this.hide();
-        break;
-    }
-  });  
+  if ($('.homepage #countdown').size() > 0) {
+    $('#countdown').countdown(new Date("November 10, 2012 08:30:00"), function(event) {
+      var $this = $(this);
+      switch(event.type) {
+        case "seconds":
+        case "minutes":
+        case "hours":
+        case "days":
+          $this.find('span#'+event.type).html(event.value);
+          break;
+        case "finished":
+          $this.hide();
+          break;
+      }
+    });
+  }    
 
   /* Carousel */
   if ($('.homepage #carousel-main').size() > 0) {
@@ -52,6 +54,8 @@ $(document).ready(function(){
       autoSlideInterval: 5000
     });
   }
+
+  $('.forkit-curtain').show();
 
   if ($('.homepage #lifestream').size() > 0) {
     $("#lifestream").lifestream({

@@ -1,20 +1,58 @@
 .carousel {
     overflow: auto;
-}
-.carousel.js .carousel-wrap {
-    width:200px;
-    margin: 0 auto;
-}
-.carousel ul {
-    margin:0;
-    padding:0;
-}
-.carousel.js ul li {
-    display:inline;
-    float:left;
-    width:200px;
-    text-align:center;
-}
-.carousel .carousel-control {
-    display:none; /*we dont want it*/
+    outline: none;
+    .carousel-wrap {
+        width:550px;
+        height: 308px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    ul {
+        margin:0;
+        padding:0;
+    }
+    li {
+        display:inline;
+        float:left;
+        width:550px;
+        height: 300px !important;
+        text-align:center;
+        border: 1px solid $green-dark;
+        border-width: 3px 0 5px;
+        position: relative;
+        color: white !important;
+        overflow: hidden;
+        div {
+            position: absolute;
+            width: 400px;
+            top: 0;
+            left: -200px;
+            height: 280px;
+            background: $green-dark;
+            opacity: 0.75;
+            padding: 10px 5px;
+            transition: left 2s;
+            -moz-transition: left 2s; /* Firefox 4 */
+            -webkit-transition: left 2s; /* Safari and Chrome */
+            -o-transition: left 2s; /* Opera */
+        }
+        div:hover {
+            left: 0;
+        }
+    }
+    h2, h3 {
+        line-height: 1.2;
+    }
+    h2 {
+        font-size: 24px !important;
+        padding-top: 12px;
+    }
+    h3 {
+        font-size: 15px;
+        padding: 15px 0 5px;
+    }
+    
+    .carousel-control {
+        display:none; /*we dont want it*/
+    }
 }

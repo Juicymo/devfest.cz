@@ -2,26 +2,20 @@
 layout: default
 type: home
 ---
-
 <article class="homepage">
 
 <section>
-
-  <div class="row">
-    <div class="span12">
-      <div class="header">
+  <div class="header">
+    <div class="row">
+      <div class="span6">
         <h1>
           <a href="/">
             <img src="/imgs/devfest-logo.png" width="381" height="70" alt="DevFest Praha">
           </a>
         </h1> 
         <p class="motto">Den plný technologií, zážitků, networkingu,<br /> přednášek a kódu (v uvedeném pořadí)!</p>
-        <div class="register register-button">
-          <p>
-            Jsem IN! Chci přijít. Registrace je nutná a ZDARMA.
-          </p>
-          {% include register.html %}
-        </div> 
+      </div>
+      <div class="span6 countdown">
         <p>DevFest Praha 2012 začíná již za</p>
         <div id="countdown">
           <ul class="menu menu-h">
@@ -41,46 +35,21 @@ type: home
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section>
-  <div class="carousel" id="carousel-main">
-    <ul>
-      <li>
-        <div>
-          <h2>
-            Creating Modern Android UIs
-          </h2>
-          <h3>Přednáší Nick Butcher</h3>
-          <p>Chcete se dozvědět více o programování pro Android?</p>
-          <a href="#">více o této přednášce</a>
+    <div class="row">
+      <div class="span12">
+        <div class="register register-button">
+          <p>
+            Jsem IN! Chci přijít. Registrace je nutná a ZDARMA.
+          </p>
+          {% include register.html %}
         </div>
-        <img src="/data/imgs/slider/androidfigure.jpg" width="191" height="35" alt="">
-      </li>
-      <li>
-        <div>
-          <h2>
-            Creating Modern Android UIs
-          </h2>
-          <h3>Přednáší Nick Butcher</h3>
-          <p>Chcete se dozvědět více o programování pro Android?</p>
-          <a href="#">více o této přednášce</a>
-        </div>
-        <img src="/data/imgs/slider/androidfigure.jpg" width="191" height="35" alt="">
-      </li>
-      <li>
-        <div>
-          <h2>
-            Creating Modern Android UIs
-          </h2>
-          <h3>Přednáší Nick Butcher</h3>
-          <p>Chcete se dozvědět více o programování pro Android?</p>
-          <a href="#">více o této přednášce</a>
-        </div>
-        <img src="/data/imgs/slider/androidfigure.jpg" width="191" height="35" alt="">
-      </li>
-    </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12">
+        {% include carousel.html %}
+      </div>
+    </div>
   </div>
 </section>
 

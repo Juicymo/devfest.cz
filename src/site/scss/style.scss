@@ -23,7 +23,7 @@ $border-hero-unit: #ddd;
 
 body {
   padding-top: 60px;
-  background: $background-gray url('../imgs/background.png') center -80px no-repeat;
+  background: $background-gray url('../imgs/background.png') center -50px no-repeat;
 }
 
 h1 {
@@ -32,6 +32,10 @@ h1 {
 
 address {
   margin-bottom: 25px;
+}
+
+.container {
+  position: relative;
 }
 
 .menu {
@@ -94,16 +98,11 @@ section {
   }
 }
 
-
-
-
-
 /* place after the body + padding */
 @import "compass_twitter_bootstrap_responsive";
 
 .header {
   text-align: center;
-  margin-top: 20px;
   h2 {
     text-transform: none;
     text-rendering: auto;
@@ -167,6 +166,13 @@ section {
       -webkit-box-sizing: content-box;
       margin-bottom: 5px;
     }
+  }
+  .btn-large {
+    padding: 12px 40px;
+    font-size: 18px;
+  }
+  .countdown {
+    margin-top: 30px;
   }
 }
 
@@ -424,10 +430,10 @@ footer {
     position: relative;
     z-index: 5;
     height: 130px;
-    transition: margin-top 1s, opacity 1s;
-    -moz-transition: margin-top 1s, opacity 1s; /* Firefox 4 */
-    -webkit-transition: margin-top 1s, opacity 1s; /* Safari and Chrome */
-    -o-transition: margin-top 1s, opacity 1s; /* Opera */
+    transition: margin-top 1s;
+    -moz-transition: margin-top 1s; /* Firefox 4 */
+    -webkit-transition: margin-top 1s; /* Safari and Chrome */
+    -o-transition: margin-top 1s; /* Opera */
   }
   .web {
     border-color: $blue-dark;
@@ -478,3 +484,4 @@ footer {
 
 @import "countdown";
 @import "carousel";
+@import "forkit";
