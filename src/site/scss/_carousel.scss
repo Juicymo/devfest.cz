@@ -1,47 +1,94 @@
 .carousel {
+    padding: 0 100px;
     width: 550px;
     margin: 0 auto;
     .carousel-control {
         display: none
-    }
-    .carousel-control.right {
-        right: -50px;
-    }
-    .carousel-control.left {
-        left: -50px;
     }
     .item {
         border: 1px solid $green-dark;
         border-width: 3px 0 5px;
         color: white !important;
         overflow: hidden;
-        div {
-            width: 400px;           
+        .carousel-caption {
+            width: 430px;           
             top: 0;
             left: -200px;
             height: 280px;
-            background: $green-dark;
-            opacity: 0.75;
+            background: transparent url('../imgs/arrow-2.png') top left no-repeat;
             padding: 10px 5px;
             transition: left 2s;
             -moz-transition: left 2s; /* Firefox 4 */
             -webkit-transition: left 2s; /* Safari and Chrome */
             -o-transition: left 2s; /* Opera */
+            .pull-left {
+                width: 200px;
+                img {
+                    border: 1px solid $green-dark;
+                }             
+            }
+            .part-2 {
+                width: 180px;
+                padding: 0 30px 0 20px;
+                a {
+                    color: white;
+                    text-decoration: underline;
+                    margin-top: 20px;
+                    text-align: left
+                }
+            }
         }
-        div:hover {
+        .carousel-caption:hover {
             left: 0;
+        }
+    }
+    .web {
+        border-color: $blue-dark;
+        .carousel-caption {
+            background-position: left -300px;
+            .pull-left {
+                img {
+                    border-color: $blue-dark;
+                }             
+            }
+        }       
+    }
+    .other {
+        border-color: $red-light;
+        .carousel-caption {
+            background-position: left -900px;
+            .pull-left {
+                img {
+                    border-color: $red-light;
+                }             
+            }
+        }
+    }
+    .lab {
+        border-color: $yellow-dark;
+        .carousel-caption {
+            background-position: left -600px;
+            .pull-left {
+                img {
+                    border-color: $yellow-dark;
+                }             
+            }
         }
     }
     h2, h3 {
         line-height: 1.2;
     }
+    h2, p {
+        text-align: left;
+    }
     h2 {
-        font-size: 24px !important;
-        padding-top: 12px;
+        font-size: 35px !important;
+        color: white;
+        font-weight: bold;      
     }
     h3 {
         font-size: 15px;
-        padding: 15px 0 5px;
+        padding: 15px 5px 5px;
     }
 }
 
