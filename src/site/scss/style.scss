@@ -303,13 +303,23 @@ article.homepage {
   }
 }
 
-.we {
+.when {
+  h2 {
+    color: $blue-dark;
+  }
+}
+
+#location .where h2 {
+  margin-top: 0;
+}
+
+.we, .vehicle {
   h2 {
     color: $red-light;
   }
 }
 
-.you {
+.you, .parking {
   h2 {
     color: $yellow-dark;
   }
@@ -694,6 +704,22 @@ footer {
     color: $border-hero-unit;
     margin-left: 5px;
   }
+}
+
+#location {
+  .callouts {
+    margin-top: 30px;  
+  }
+  .address {
+    iframe {
+      width: 100%;
+    }
+    a {
+      display: block;
+      text-align: center !important;
+      color: $blue-dark !important;
+    }
+  } 
 }
 
 @import "countdown";
