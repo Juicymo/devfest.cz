@@ -3,30 +3,149 @@ layout: default
 title: "O akci"
 ---
 
-
-O akci DevFest Praha 2012
-==============================
-
 <section id="about">
-	<div class="row">
-		<div class="span12">
-			<h2>Videa</h2>
-			<iframe width="420" height="315" src="http://www.youtube.com/embed/BGqZ5FEBUXo" frameborder="0" allowfullscreen></iframe>
-			<iframe width="560" height="315" src="http://www.youtube.com/embed/6FoUWoPkFXU" frameborder="0" allowfullscreen></iframe>
-		</div>
-	</div>
+	<h1>O akci DevFest Praha 2012</h1>
+	Todo hlod
 
 	<div class="row">
 		<div class="span12">
-			<h2>Meme</h2>
-			todo obrazky
-		</div>
-	</div>
+			<h2>Organizátoři</h2>
+			<div id="organizators">
+				<div class="organizator">
+					<a href="https://plus.google.com/105226520260545998888/posts">
+				      <img src="/data/imgs/organizatori/radek-simko.jpg" width="150" height="150" alt="Radek Šimko" />
+				    </a>
+				    <div class="info">
+				      <h3>Radek Šimko</h3>
+				    </div>
+				</div>
 
-	<div class="row">
-		<div class="span12">
-			<h2>Organizatori</h2>
-			todo orgove
+				<div class="organizator">
+					<a href="https://plus.google.com/104479307512579553448/posts">
+				      <img src="/data/imgs/organizatori/tomas-jukin.jpg" width="150" height="150" alt="Tomáš Jukin" />
+				    </a>
+				    <div class="info">
+				      <h3>Tomáš Jukin</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/115898582817676935843/posts">
+				      <img src="/data/imgs/organizatori/jana-moudra.jpg" width="150" height="150" alt="Jana Moudrá" />
+				    </a>
+				    <div class="info">
+				      <h3>Jana Moudrá</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://twitter.com/Vybrii">
+				      <img src="/data/imgs/organizatori/pavel-vybiral.jpg" width="150" height="150" alt="Pavel Vybíral" />
+				    </a>
+				    <div class="info">
+				      <h3>Pavel Vybíral</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/u/0/107708283520313020793/posts">
+				      <img src="/data/imgs/organizatori/katerina-kropacova.jpg" width="150" height="150" alt="Kateřina Kropáčová" />
+				    </a>
+				    <div class="info">
+				      <h3>Kateřina Kropáčová</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/114523676440083927755/posts">
+				      <img src="/data/imgs/organizatori/dan-franc.jpg" width="150" height="150" alt="Dan Franc" />
+				    </a>
+				    <div class="info">
+				      <h3>Dan Franc</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/u/0/100156589101321820776">
+				      <img src="/data/imgs/organizatori/david-vavra.jpg" width="150" height="150" alt="David Vávra" />
+				    </a>
+				    <div class="info">
+				      <h3>David Vávra</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/117712484029696956363">
+				      <img src="/data/imgs/organizatori/ondrej-kucera.jpg" width="150" height="150" alt="Ondřej Kučera" />
+				    </a>
+				    <div class="info">
+				      <h3>Ondřej Kučera</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/u/0/104259028407125578722/posts">
+				      <img src="/data/imgs/organizatori/jakub-skvara.jpg" width="150" height="150" alt="Jakub Škvára" />
+				    </a>
+				    <div class="info">
+				      <h3>Jakub Škvára</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/u/0/114490035640099419111/posts">
+				      <img src="/data/imgs/organizatori/janek-wagner.jpg" width="150" height="150" alt="Janek Wagner" />
+				    </a>
+				    <div class="info">
+				      <h3>Janek Wagner</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/117794822047717272779/posts">
+				      <img src="/data/imgs/organizatori/iveta-levova.jpg" width="150" height="150" alt="Iveta Levová" />
+				    </a>
+				    <div class="info">
+				      <h3>Iveta Levová</h3>
+				    </div>
+				</div>				
+
+				<div class="organizator">
+					<a href="https://plus.google.com/105136230974590168001/posts">
+				      <img src="/data/imgs/organizatori/josef-cabrnoch.jpg" width="150" height="150" alt="Josef Cabrnoch" />
+				    </a>
+				    <div class="info">
+				      <h3>Josef Cabrnoch</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/u/0/104815104420632461640/posts">
+				      <img src="/data/imgs/organizatori/david-kovac.jpg" width="150" height="150" alt="Dávid Kováč" />
+				    </a>
+				    <div class="info">
+				      <h3>Dávid Kováč</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/u/0/108181155990195164346">
+				      <img src="/data/imgs/organizatori/florian-nagy.jpg" width="150" height="150" alt="Florian Nagy" />
+				    </a>
+				    <div class="info">
+				      <h3>Florian Nagy</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
+					<a href="https://plus.google.com/u/0/106641197398960388441">
+				      <img src="/data/imgs/organizatori/edmund-dakos.jpg" width="150" height="150" alt="Edmund Dakoš" />
+				    </a>
+				    <div class="info">
+				      <h3>Edmund Dakoš</h3>
+				    </div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
