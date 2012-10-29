@@ -721,6 +721,41 @@ footer {
     }
   } 
 }
+.agnes-icon {
+  display: block;
+  height: 59px;
+  width: 60px;
+  background: transparent url('../imgs/agnes.png') top left no-repeat !important;
+  text-indent: -99999px;
+  padding: 0 !important;
+  margin: 15px 0 !important;
+}
+.agnes {
+  background: rgba( 0, 0, 0, 0.8 );
+  #agnes {
+    overflow: visible;
+    text-align: center;
+    h2 {
+      color: white;
+      font-family: $funsansFontFamily;
+    }
+    iframe {
+      margin-bottom: 20px;
+    }
+    a img {
+      -webkit-transition: -webkit-transform .15s linear;
+        -moz-transition: -moz-transform .15s linear;
+        -o-transition: transform .15s linear;
+        -transition: transform .15s linear;
+        position: relative;
+    }
+    a:hover img {
+      -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+  }
+}
 
 @import "countdown";
 @import "carousel";

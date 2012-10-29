@@ -35,8 +35,7 @@
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </head>
-<body>
-  {% include curtain.html %}  
+<body class="{{ page.cssClass }}">
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -89,6 +88,9 @@
                 <a href="https://twitter.com/share" class="twitter-share-button" data-via="gughackathon" data-lang="cs" data-count="none">Tweet</a>                
               </li> 
               <li class="share-button gplus"><div class="g-plusone" data-size="medium" data-callback="gplus_pressed" data-annotation="none"></div></li>
+              <li>
+                <a class="agnes-icon visible-phone visible-tablet" href="/agnes/">Agnes</a>
+              </li>
             </ul>
           </div><!--/.nav-collapse -->    
         </div>

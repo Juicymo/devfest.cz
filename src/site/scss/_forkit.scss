@@ -14,7 +14,8 @@
 		display: block;
 		height: 59px;
 		width: 60px;
-		background: transparent url('../imgs/agnes.png') top left no-repeat;;
+		background: transparent url('../imgs/agnes.png') top left no-repeat;
+		text-indent: -99999px;
 		-webkit-transform-origin: 15px 0px;
 		   -moz-transform-origin: 15px 0px;
 		    -ms-transform-origin: 15px 0px;
@@ -63,22 +64,5 @@
 	}
 	h2 {
 		margin-top: 50px;
-		color: white;
-		font-family: $funsansFontFamily;
-	}
-	iframe {
-		margin-bottom: 20px;
-	}
-	a img {
-		-webkit-transition: -webkit-transform .15s linear;
-	    -moz-transition: -moz-transform .15s linear;
-	    -o-transition: transform .15s linear;
-	    -transition: transform .15s linear;
-	    position: relative;
-	}
-	a:hover img {
-		-webkit-transform: scale(1.2);
-	    -moz-transform: scale(1.2);
-	    transform: scale(1.2);
 	}
 }
