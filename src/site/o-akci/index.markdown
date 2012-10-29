@@ -75,6 +75,15 @@ title: "O akci"
 				</div>
 
 				<div class="organizator">
+					<a href="https://plus.google.com/111783114889748547827">
+				      <img src="/data/imgs/organizatori/filip-hracek.jpg" width="150" height="150" alt="Filip Hráček" />
+				    </a>
+				    <div class="info">
+				      <h3>Filip Hráček</h3>
+				    </div>
+				</div>
+
+				<div class="organizator">
 					<a href="https://plus.google.com/117712484029696956363">
 				      <img src="/data/imgs/organizatori/ondrej-kucera.jpg" width="150" height="150" alt="Ondřej Kučera" />
 				    </a>
