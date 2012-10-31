@@ -70,10 +70,15 @@ section {
     iframe {
       margin-top: 10px;
       border: 1px solid $border-hero-unit;
-      width: 100%;
+      width: 99%;
       @media (max-width: 767px) {
         margin: 0 0 10px;
       }
+    }
+    iframe + a {
+      text-align: center !important;
+      color: $blue-dark !important;
+      display: block; 
     }
     .facebook iframe {
       margin-top: 4px !important;
@@ -291,11 +296,6 @@ article.homepage {
     color: $blue-dark !important;
   }
 }
-.where a, .we a {
-  text-align: center !important;
-  color: $blue-dark !important;
-  display: block; 
-}
 .where {
   h2 {
     color: $green-dark;
@@ -494,7 +494,7 @@ footer {
     background: #333;
     float: left;
     overflow: hidden;
-    margin: 0 10px 10px 0;
+    margin: 0 15px 15px 0;
     transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
@@ -708,18 +708,18 @@ footer {
 
 #location {
   .callouts {
-    margin-top: 30px;  
+    margin-bottom: 30px;  
   }
-  .address {
-    iframe {
-      width: 100%;
-    }
-    a {
-      display: block;
-      text-align: center !important;
-      color: $blue-dark !important;
-    }
-  } 
+  h3 {
+    font-size: 14px;
+  }
+  ul {
+    list-style: none;
+    list-style-image: url('../imgs/arrow-list.png');
+  }
+  address {
+    margin-bottom: 11px;
+  }
 }
 .agnes-icon {
   display: block;
