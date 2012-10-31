@@ -53,6 +53,7 @@ $(document).ready(function(){
 
   $('.forkit-curtain').show();
 
+  /* Lifestream */
   if ($('.homepage #lifestream').size() > 0) {
     $("#lifestream").lifestream({
       list:[

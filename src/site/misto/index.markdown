@@ -53,7 +53,7 @@ Místo
 		<div class="span3 parking">
 			<h2>Parkování</h2>  
 		    <p>Šetřete přírodu, využijte MHD.</p>
-			<p>Placené parkování na ulici Šolínová, punkové parkování na ulici Verdunská.</p>
+			<p>Placené parkování na ulici <strong>Šolínová</strong>, punkové parkování na ulici <strong>Verdunská</strong>.</p>
 		</div>
 	</div>
 </section>
