@@ -1,0 +1,35 @@
+/* IE fixes */
+.agnes {
+	background: #303030;
+}
+.navbar .brand {
+	width: 168px; 
+}
+.home .navbar .brand {
+	width: 23px; 
+}
+
+#program .span10 {
+	width: 800px;
+}
+
+#program .span10 .span2 {
+  width: 200px;
+  margin: 0;
+}  
+
+/* IE7 */
+* + html .carousel .item {
+	height: 300px !important;
+}
+
+* + html #speakers .speaker {
+	position: relative;
+}
+
+* + html .forkit {
+	height: 59px;
+	width: 60px;
+	background: transparent url('../imgs/agnes.png') top left no-repeat;
+	text-indent: -9999px;
+}
