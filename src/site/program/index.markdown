@@ -12,9 +12,9 @@ blabla vyrábíme
 
 
 <section id="program">
-	<div class="program-item row">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+	<div class="program-item row hidden-phone">
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -42,6 +42,7 @@ blabla vyrábíme
 			<p>Snídaně a networking</p>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row keynote long">
 		<div class="program-item-time span2">
 			<span class="time">10:00</span>
@@ -55,6 +56,7 @@ blabla vyrábíme
 			</div>			
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
 		<div class="program-item-time span2">
 			<span class="time">10:30</span>
@@ -97,9 +99,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -137,9 +140,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -167,9 +171,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -207,9 +212,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -243,9 +249,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -287,9 +294,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -332,9 +340,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -376,9 +385,10 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row blocks">
-		<div class="program-item-time span2">
-			<span class="empty"></span>
+		<div class="program-item-time span2 empty">
+			<span></span>
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
@@ -403,6 +413,7 @@ blabla vyrábíme
 			</div>
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row end long">
 		<div class="program-item-time span2">
 			<span class="time">20:00</span>
@@ -416,6 +427,7 @@ blabla vyrábíme
 			</div>			
 		</div>
 	</div>
+	<div class="visible-phone"></div>
 	<div class="program-item row full">
 		<div class="program-item-time span2">
 			<span class="time">20:30</span>
