@@ -1,6 +1,10 @@
 #countdown {
   width: 325px;
   margin: 0 auto;
+  p {
+    text-align: left;
+    margin-left: 10px;
+  }
   li {
     text-align: center;
     margin: 0 5px;

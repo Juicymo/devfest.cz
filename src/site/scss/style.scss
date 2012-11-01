@@ -53,10 +53,10 @@ address {
 }
 
 section {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   overflow: visible;
-  @media (max-width: 481px) {
-    margin-bottom: 30px;
+  @media (min-width: 768px) {
+    margin-bottom: 70px;
   }
 
   .callouts {
@@ -87,13 +87,20 @@ section {
   }
 }
 
-.likes {
-  width: 500px;
+.likes {  
+  @media (min-width: 768px) {
+    width: 500px;
+  }
   margin: 0 auto !important;
   overflow: auto;
   li {
-    float: left;
-    margin: 0 5px;
+    text-align: center;
+    margin: 20px 0;
+    @media (min-width: 768px) {
+      float: left;
+      text-align: left;
+      margin: 0 5px;
+    }
     iframe {
       border: none;
       width: auto;
@@ -387,16 +394,17 @@ article.homepage {
     }
   }
   li {
-    padding: 0 20px;
+    padding: 10px 0;
     margin-bottom: 0;
-    @media (max-width: 767px) {
-      padding: 0 5px;
+    float: none;
+    a {
+      margin: 0 auto;
     }
-    @media (max-width: 481px) {
-      float: none;
-      margin-bottom: 10px;
+    @media (min-width: 768px) {     
+      padding: 0 20px;
+      float: left;
       a {
-        margin: 0 auto;
+        margin: 0;
       }
     }
   }
@@ -694,7 +702,7 @@ footer {
 
       height: 158px !important;
       h2 {
-        margin-top: 75px;    
+        margin-top: 45px;    
       }
     }
   }

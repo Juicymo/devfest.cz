@@ -1,6 +1,4 @@
 .carousel {
-    padding: 0 100px;
-    width: 100%;
     margin: 0 auto;
     .carousel-control {
         display: none
@@ -8,12 +6,12 @@
     .item {
         border: 1px solid $green-dark;
         border-width: 3px 0 5px;
+        width: 100%;
         color: white !important;
         overflow: hidden;
         .carousel-caption {
             width: 430px;           
             top: 0;
-            left: -200px;
             height: 280px;
             background: transparent url('../imgs/arrow-2.png') top left no-repeat;
             padding: 10px 5px;
@@ -25,6 +23,7 @@
                 width: 200px;
                 img {
                     border: 1px solid $green-dark;
+                    width: auto;
                 }             
             }
             .part-2 {
@@ -36,6 +35,9 @@
                     margin-top: 20px;
                     text-align: left
                 }
+            }
+            img {
+                width: 100%;
             }
         }
         .carousel-caption:hover {
@@ -82,20 +84,30 @@
         text-align: left;
     }
     h2 {
-        font-size: 30px !important;
+        font-size: 25px !important;
         color: white;
         font-weight: bold;   
         margin-top: 50px;   
     }
     h3 {
-        font-size: 15px;
+        font-size: 14px;
         padding: 15px 5px 5px;
     }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 768px) {
     .carousel {
         width: 550px;
+        padding: 0 100px;
+        h2 {
+            font-size: 30px !important; 
+        }
+        h3 {
+            font-size: 15px;
+        }
+    }
+    .carousel .carousel-caption {
+        left: -200px;
     }
     .carousel:hover .carousel-control {
         display: block;
