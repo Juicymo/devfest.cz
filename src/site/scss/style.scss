@@ -39,6 +39,10 @@ address {
 
 .container {
   position: relative;
+  ul {
+    list-style: none;
+    list-style-image: url('../imgs/arrow-list.png');
+  }
 }
 
 .menu {
@@ -58,7 +62,6 @@ section {
   @media (min-width: 768px) {
     margin-bottom: 70px;
   }
-
   .callouts {
     h2 {
       border-bottom: 4px solid;
@@ -844,10 +847,6 @@ footer {
   }
   h3 {
     font-size: 14px;
-  }
-  ul {
-    list-style: none;
-    list-style-image: url('../imgs/arrow-list.png');
   }
   address {
     margin-bottom: 11px;
