@@ -1,6 +1,6 @@
 .carousel {
     padding: 0 100px;
-    width: 550px;
+    width: 100%;
     margin: 0 auto;
     .carousel-control {
         display: none
@@ -92,6 +92,11 @@
     }
 }
 
-.carousel:hover .carousel-control {
-    display: block;
+@media (min-width: 980px) {
+    .carousel {
+        width: 550px;
+    }
+    .carousel:hover .carousel-control {
+        display: block;
+    }   
 }

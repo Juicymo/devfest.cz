@@ -54,7 +54,7 @@ address {
 
 section {
   margin-bottom: 70px;
-  overflow: auto;
+  overflow: visible;
   @media (max-width: 481px) {
     margin-bottom: 30px;
   }
@@ -79,6 +79,7 @@ section {
       text-align: center !important;
       color: $blue-dark !important;
       display: block; 
+      margin-bottom: 30px;
     }
     .facebook iframe {
       margin-top: 4px !important;
@@ -201,6 +202,14 @@ section {
 .navbar a.brand {
   padding: 9px 5px 0 20px;
   font-size: $baseFontSize + 2;
+  @media (max-width: 979px) {
+    min-width: 400px;
+  }
+  .slogan {
+      min-width: 350px;
+      font-size: 10px;
+      padding-left: 20px;
+  }
   img {
     margin-right: 5px;
     margin-top: -4px;
@@ -714,7 +723,9 @@ footer {
     .program-item-text {   
       height: 81px;
       margin-left: 0;
-      width: 800px;
+      @media (min-width: 980px) {
+        width: 800px;
+      }      
       .inside-1 {
         background: transparent url('../imgs/program-arrow-3.png') left top no-repeat;
       }
