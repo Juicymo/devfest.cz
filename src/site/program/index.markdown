@@ -92,7 +92,7 @@ Program
 						<div class="inside-2">
 							<h2>Tomáš Reindl</h2>
 							<p>OMNION aneb jednočlenný sebe-smyčkovací orchestr</p>							
-							<a href="">
+							<a href="http://www.myspace.com/tomasreindl">
 								<img src="/data/imgs/recnici/tomas-reindl-small.jpg" width="40" height="40" alt="Tomáš Reindl" />
 							</a>
 						</div>
@@ -174,7 +174,7 @@ Program
 					<div class="inside-1">
 						<div class="inside-2">
 							<h2>FightClub</h2>
-							<p>Souboj vývojářů mobilních platforem, dva týmy, jedno zadání. Realtime!</p>
+							<p>FightClub je realtime soubojem mobilních vývojářů, tři týmy, jedno zadání, 90 minut a 10 úkolů. Víc vám nepovíme, protože o FightClubu se nemluví!</p>
 							<a href="/fightclub/" style="display: none;">více o FightClubu</a>
 						</div>
 					</div>
@@ -208,8 +208,8 @@ Program
 					<div class="inside-1">
 						<div class="inside-2">
 							<h2>Richard Fridrich</h2>
-							<p>Čo by si sa dozvedel po mesiaci vývoja rozšírení pre Chrome a bolo by ti ľúto, že si to nevedel hneď</p>						
-							<a href="http://www.linkedin.com/in/fczbkk">
+							<p>Rozšírenia pre Chrome rýchlo a bezbolestne</p>						
+							<a href="https://plus.google.com/111453401774376620498/posts">
 								<img src="/data/imgs/recnici/richard-fridrich-small.jpg" width="40" height="40" alt="Richard Fridrich" />
 							</a>
 						</div>
@@ -240,7 +240,7 @@ Program
 					<div class="inside-1">
 						<div class="inside-2">
 							<h2>Jiří Knesl</h2>
-							<p>SprintMethod: Nejlepší agilní metodika?</p>						
+							<p>SprintMethod</p>						
 							<a href="https://plus.google.com/111481300807306128237/posts">
 								<img src="/data/imgs/recnici/jiri-knesl-small.jpg" width="40" height="40" alt="Jiří Knesl" />
 							</a>
@@ -262,7 +262,7 @@ Program
 					<div class="inside-1">
 						<div class="inside-2">
 							<h2>Ladislav Prskavec</h2>
-							<p>AngularJS na jobs.cz</p>						
+							<p>Postavte si zeď mezi svoje vývojáře</p>						
 							<a href="https://plus.google.com/113391188023467233438/posts">
 								<img src="/data/imgs/recnici/ladislav-prskavec-small.jpg" width="40" height="40" alt="Ladislav Prskavec" />
 							</a>
@@ -484,7 +484,7 @@ Program
 		</div>
 		<div class="program-item-text span8">
 			<h2>GPivo</h2>
-			<p>Neformální posezení nad Googlem. A pivem. Zároveň nás čeká hudební happening <strong>NerdRock</strong>.</p>		
+			<p>Neformální posezení nad Googlem. A pivem. Zároveň nás čeká hudební happening NerdRock s písničkami, kterému sami již nyní <a href="https://plus.google.com/u/0/events/ci9vgu8ldpjkmktt1hk58rdpgb8">vytvářejte texty</a>.</p>		
 		</div>
 	</div>
 </section>

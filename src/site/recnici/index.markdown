@@ -77,7 +77,7 @@ title: "Řečníci"
     </a>
     <div class="info">
       <h2>Jiří Knesl</h2>
-      <h3>SprintMethod: Nejlepší agilní metodika?</h3>
+      <h3>SprintMethod</h3>
     </div>
   </div>
   <div class="speaker web">
@@ -99,12 +99,12 @@ title: "Řečníci"
     </div>
   </div>
   <div class="speaker other">
-    <a href="http://www.linkedin.com/in/fczbkk">
+    <a href="https://plus.google.com/111453401774376620498/posts">
       <img src="/data/imgs/recnici/richard-fridrich.jpg" width="200" height="250" alt="Richard Fridrich" />
     </a>
     <div class="info">
       <h2>Richard Fridrich</h2>
-      <h3>Čo by si sa dozvedel po mesiaci vývoja rozšírení pre Chrome a bolo by ti ľúto, že si to nevedel hneď</h3>
+      <h3>Rozšírenia pre Chrome rýchlo a bezbolestne</h3>
     </div>
   </div>
   <div class="speaker web">
@@ -131,7 +131,7 @@ title: "Řečníci"
     </a>
     <div class="info">
       <h2>Ladislav Prskavec</h2>
-      <h3>AngularJS na jobs.cz</h3>
+      <h3>Postavte si zeď mezi svoje vývojáře</h3>
     </div>
   </div>
   <div class="speaker other">
@@ -180,7 +180,9 @@ title: "Řečníci"
     </div>
   </div>
   <div class="speaker other">
-    <img src="/data/imgs/recnici/tomas-reindl.jpg" width="200" height="250" alt="Tomáš Reindl" />
+    <a href="http://www.myspace.com/tomasreindl">
+      <img src="/data/imgs/recnici/tomas-reindl.jpg" width="200" height="250" alt="Tomáš Reindl" />
+    </a>
     <div class="info">
       <h2>Tomáš Reindl</h2>
       <h3>OMNION aneb jednočlenný sebe-smyčkovací orchestr</h3>
