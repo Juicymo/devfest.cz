@@ -74,4 +74,14 @@ $(document).ready(function(){
       ]
     });
   }
+
+  /* Clickable blocks in program */
+  if ($('#program').size() > 0) {
+    $('#program .clickable').each(function(){
+        var link =  $('a', this);
+        $(this).click(function(){
+          window.open(link.attr('href'), '_parent');
+        });
+    });
+  }  
 });

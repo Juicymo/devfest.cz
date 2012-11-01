@@ -3,10 +3,11 @@ layout: default
 title: "O akci"
 ---
 
-<section id="about">
-	<h1>O akci DevFest Praha 2012</h1>
-	Todo hlod
+#O akci
+	
+DevFest je oslavou našeho vývojářského řemesla, je to nový svátek pro nás vývojáře, pány počítačů. Je to jeden den **od vývojářů, pro vývojáře**. DevFest pro vás připravil tým organizátorů z řad celého GUG.cz s vydatnou a vítanou pomocí od Google ČR. Našemu týmu je velkou ctí a privilegiem, že pro vás může tyto akce pořádat. Tato akce by nikdy nebyla bez velkého úsilí všech organizátorů uvedených níže a hlavně a především bez podpory *vás, účastníků*. Děkujeme a těšíme se v sobotu!
 
+<section id="about">
 	<div class="row">
 		<div class="span12">
 			<h2>Organizátoři</h2>

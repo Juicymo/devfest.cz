@@ -69,7 +69,6 @@ section {
       margin-bottom: 5px;
       padding-top: 3px;
     }
-
     iframe {
       margin-top: 10px;
       border: 1px solid $border-hero-unit;
@@ -269,6 +268,9 @@ section {
 }
 
 article.homepage {
+  ul {
+    list-style-image: none;
+  }
   ul.buttons {
     text-align: center;
     list-style: none;
@@ -362,6 +364,7 @@ article.homepage {
   }
   a {
     float: right;
+    margin-left: 20px;
   }
 
   .tab-pane {
@@ -484,6 +487,12 @@ footer {
     border-color: $yellow-dark;
     .info {
       background-position: -400px 0; 
+    }    
+  }
+  .failcon {
+    border-color: #333;
+    .info {
+      background-position: -800px 0; 
     }    
   }
   .speaker:hover .info {
@@ -760,6 +769,9 @@ footer {
     .dev {
       background: #484849;
     }
+    .clickable {
+      cursor: pointer;
+    }
     .span2 {
       height: 188px;
       margin-bottom: 10px;
@@ -784,6 +796,7 @@ footer {
       }
     }
     .program-item-text {   
+      text-align: center;
       @media (min-width: 768px) {
         width: 600px;
       }  
@@ -795,7 +808,7 @@ footer {
         background: transparent url('../imgs/program-arrow-3.png') left top no-repeat;
       }
       .inside-2 {
-        padding: 10px 10px 10px 60px;
+        padding: 10px 0;
         height: 61px;
         background: transparent url('../imgs/program-arrow-3.png') right bottom no-repeat;
       }

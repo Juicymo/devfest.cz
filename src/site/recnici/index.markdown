@@ -8,16 +8,15 @@ title: "Řečníci"
 ==============================
 
 <section id="speakers">
-  <div class="speaker">
+  <div class="speaker android">
     <a href="https://plus.google.com/115995639636688350464/posts">
       <img src="/data/imgs/recnici/rich-hyndman.jpg" width="200" height="250" alt="Rich Hyndman" />
     </a>
-    <div class="info android">
+    <div class="info">
       <h2>Rich Hyndman</h2>
       <h3>What's New in Android</h3>
     </div>
   </div>
-
   <div class="speaker android">
     <a href="https://plus.google.com/118292708268361843293/posts">
       <img src="/data/imgs/recnici/nick-butcher.jpg" width="200" height="250" alt="Nick Butcher" />
@@ -27,7 +26,6 @@ title: "Řečníci"
       <h3>Creating Modern Android UIs</h3>
     </div>
   </div>  
-
   <div class="speaker web">
     <a href="https://plus.google.com/117663020319348671498/posts">
       <img src="/data/imgs/recnici/vojta-jina.jpg" width="200" height="250" alt="Vojta Jína" />
@@ -37,7 +35,6 @@ title: "Řečníci"
       <h3>Angular JS</h3>
     </div>
   </div>
-
   <div class="speaker android">
     <a href="https://plus.google.com/+Jakub%C4%8C%C3%AD%C5%BEek/posts">
       <img src="/data/imgs/recnici/jakub-cizek.jpg" width="200" height="250" alt="Jakub Čížek" />
@@ -47,7 +44,6 @@ title: "Řečníci"
       <h3>Jak jsem díky Androidu zaměřil milion českých Wi-Fi sítí</h3>
     </div>
   </div>
-
   <div class="speaker other">
     <a href="https://plus.google.com/106378848135270560799/posts">
       <img src="/data/imgs/recnici/frantisek-fuka.jpg" width="200" height="250" alt="František Fuka" />
@@ -57,7 +53,6 @@ title: "Řečníci"
       <h3>Jak funguje hudební harmonie a jak skládat hudbu z geekovsko-matematického hlediska</h3>
     </div>
   </div>
-
   <div class="speaker web">
     <a href="https://plus.google.com/101409281065555048852/posts">
       <img src="/data/imgs/recnici/daniel-steigerwald.jpg" width="200" height="250" alt="Daniel Steigerwald" />
@@ -67,7 +62,6 @@ title: "Řečníci"
       <h3>TodoMVC v Este.js. Srovnání s imlementacemi</h3>
     </div>
   </div>
-
   <div class="speaker other">
     <a href="https://plus.google.com/116417566983382224278/posts">
       <img src="/data/imgs/recnici/vladimir-trebicky.jpg" width="200" height="250" alt="Vladimír Třebický" />
@@ -77,7 +71,6 @@ title: "Řečníci"
       <h3>MapReduce</h3>
     </div>
   </div>
-
   <div class="speaker other">
     <a href="https://plus.google.com/111481300807306128237/posts">
       <img src="/data/imgs/recnici/jiri-knesl.jpg" width="200" height="250" alt="Jiří Knesl" />
@@ -87,7 +80,6 @@ title: "Řečníci"
       <h3>SprintMethod: Nejlepší agilní metodika?</h3>
     </div>
   </div>
-
   <div class="speaker web">
     <a href="https://plus.google.com/118203152533797031951/posts">
       <img src="/data/imgs/recnici/radek-pavlicek.jpg" width="200" height="250" alt="Radek Pavlíček" />
@@ -97,7 +89,6 @@ title: "Řečníci"
       <h3>Přístupnost HTML5 v kombinaci s WAI-ARIA</h3>
     </div>
   </div>
-
   <div class="speaker other">
     <a href="https://plus.google.com/115748350099126853184/posts">
       <img src="/data/imgs/recnici/ivan-kutil.jpg" width="200" height="250" alt="Ivan Kutil" />
@@ -107,7 +98,6 @@ title: "Řečníci"
       <h3>Zkušenosti s Chrome Extension aneb jak 3Dnator! získal 85 000+ uživatelů</h3>
     </div>
   </div>
-
   <div class="speaker other">
     <a href="http://www.linkedin.com/in/fczbkk">
       <img src="/data/imgs/recnici/richard-fridrich.jpg" width="200" height="250" alt="Richard Fridrich" />
@@ -117,7 +107,6 @@ title: "Řečníci"
       <h3>Čo by si sa dozvedel po mesiaci vývoja rozšírení pre Chrome a bolo by ti ľúto, že si to nevedel hneď</h3>
     </div>
   </div>
-
   <div class="speaker web">
     <a href="https://plus.google.com/110742501143171151210/posts">
       <img src="/data/imgs/recnici/ladislav-thon.jpg" width="200" height="250" alt="Ladislav Thon" />
@@ -127,7 +116,6 @@ title: "Řečníci"
       <h3>Oh my Dart!</h3>
     </div>
   </div>
-
   <div class="speaker web">
     <a href="https://plus.google.com/105785308934677545572/posts">
       <img src="/data/imgs/recnici/tomas-zverina.jpg" width="200" height="250" alt="Tomáš Zvěřina" />
@@ -137,7 +125,6 @@ title: "Řečníci"
       <h3>App Engine - Objectify</h3>
     </div>
   </div>
-
   <div class="speaker web">
     <a href="https://plus.google.com/113391188023467233438/posts">
       <img src="/data/imgs/recnici/ladislav-prskavec.jpg" width="200" height="250" alt="Ladislav Prskavec" />
@@ -147,7 +134,6 @@ title: "Řečníci"
       <h3>AngularJS na jobs.cz</h3>
     </div>
   </div>
-
   <div class="speaker other">
     <a href="https://plus.google.com/102815305122253501866/posts">
       <img src="/data/imgs/recnici/marek-sebera.jpg" width="200" height="250" alt="Marek Šebera" />
@@ -157,7 +143,6 @@ title: "Řečníci"
       <h3>Vývoj variabilních extensions pro Google Chrome, Firefox, IE</h3>
     </div>
   </div>
-
   <div class="speaker other">
     <a href="https://twitter.com/rdresler">
       <img src="/data/imgs/recnici/robert-dresler.jpg" width="200" height="250" alt="Robert Dresler" />
@@ -167,7 +152,6 @@ title: "Řečníci"
       <h3>Urychlovače vývojářova profesního růstu</h3>
     </div>
   </div>
-
   <div class="speaker lab">
     <a href="https://plus.google.com/111783114889748547827/posts">
       <img src="/data/imgs/recnici/filip-hracek.jpg" width="200" height="250" alt="Filip Hráček" />
@@ -177,7 +161,6 @@ title: "Řečníci"
       <h3>Dart CodeLab</h3>
     </div>
   </div>
-
   <div class="speaker lab">
     <a href="https://plus.google.com/118203152533797031951/posts">
       <img src="/data/imgs/recnici/pavel-ondra.jpg" width="200" height="250" alt="Pavel Ondra" />
@@ -187,7 +170,6 @@ title: "Řečníci"
       <h3>Accessibility CodeLab</h3>
     </div>
   </div>
-
   <div class="speaker lab">
     <a href="https://plus.google.com/109217431653727417114/posts">
       <img src="/data/imgs/recnici/radek-pavlicek.jpg" width="200" height="250" alt="Radek Pavlíček" />
@@ -195,6 +177,13 @@ title: "Řečníci"
     <div class="info">
       <h2>Radek Pavlíček</h2>
       <h3>Accessibility CodeLab</h3>
+    </div>
+  </div>
+  <div class="speaker other">
+    <img src="/data/imgs/recnici/tomas-reindl.jpg" width="200" height="250" alt="Tomáš Reindl" />
+    <div class="info">
+      <h2>Tomáš Reindl</h2>
+      <h3>OMNION aneb jednočlenný sebe-smyčkovací orchestr</h3>
     </div>
   </div>
 </section>

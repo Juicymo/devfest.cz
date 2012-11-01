@@ -13,7 +13,7 @@ Místo
 			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;brcurrent=5,0,0&amp;source=embed&amp;ll=50.108855,14.392519&amp;spn=0.019266,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><a href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;brcurrent=5,0,0&amp;source=embed&amp;ll=50.108855,14.392519&amp;spn=0.019266,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left"><span class="icon-map-marker"></span> Zvětšit mapu</a>
 		</div>
 		<div class="span6">
-			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;layer=c&amp;sll=50.102921,14.391690&amp;cbp=13,359.61,,0,-1.7&amp;cbll=50.102931,14.391362&amp;brcurrent=5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;panoid=txBo0E3dDfCKG7z3BICn2A&amp;source=embed&amp;ll=50.097418,14.39136&amp;spn=0.019271,0.036478&amp;z=14&amp;output=svembed"></iframe><a href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;layer=c&amp;sll=50.102921,14.391690&amp;cbp=13,359.61,,0,-1.7&amp;cbll=50.102931,14.391362&amp;brcurrent=5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;panoid=txBo0E3dDfCKG7z3BICn2A&amp;source=embed&amp;ll=50.097418,14.39136&amp;spn=0.019271,0.036478&amp;z=14" style="color:#0000FF;text-align:left"><span class="icon-map-marker"></span> Zvětšit mapu</a>
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;layer=c&amp;sll=50.102921,14.391690&amp;cbp=13,359.61,,0,-1.7&amp;cbll=50.102931,14.391362&amp;brcurrent=5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;panoid=txBo0E3dDfCKG7z3BICn2A&amp;source=embed&amp;ll=50.097418,14.39136&amp;spn=0.019271,0.036478&amp;z=14&amp;output=svembed"></iframe><a href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;layer=c&amp;sll=50.102921,14.391690&amp;cbp=13,359.61,,0,-1.7&amp;cbll=50.102931,14.391362&amp;brcurrent=5,0,0&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;panoid=txBo0E3dDfCKG7z3BICn2A&amp;source=embed&amp;ll=50.097418,14.39136&amp;spn=0.019271,0.036478&amp;z=14" style="color:#0000FF;text-align:left"><span class="icon-map-marker"></span> Zvětšit StreetView</a>
 		</div>		
 	</div>
 	<div class="row callouts">
@@ -21,7 +21,7 @@ Místo
 			<h2>Kdy?</h2>
 			<p>
 		        V sobotu <strong>10. listopadu</strong>.<br />
-		        Od 9:00 do 18:00.
+		        Od 8:30 do 20:00.
 		     </p>
 		</div>
 		<div class="span3 where">
@@ -52,8 +52,11 @@ Místo
 		</div>
 		<div class="span3 parking">
 			<h2>Parkování</h2>  
-		    <p>Šetřete přírodu, využijte MHD.</p>
-			<p>Placené parkování na ulici <strong>Šolínová</strong>, punkové parkování na ulici <strong>Verdunská</strong>.</p>
+			<ul>
+		    	<li>Šetřete přírodu, využijte MHD.</li>
+				<li>Placené parkování na ulici <strong>Šolínová</strong></li>
+				<li>Punkové parkování na ulici <strong>Verdunská</strong></li>			
+			</ul>
 		</div>
 	</div>
 </section>
