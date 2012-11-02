@@ -162,16 +162,16 @@ title: "Řečníci"
     </div>
   </div>
   <div class="speaker lab">
-    <a href="https://plus.google.com/118203152533797031951/posts">
+    <a href="https://plus.google.com/109217431653727417114/posts">
       <img src="/data/imgs/recnici/pavel-ondra.jpg" width="200" height="250" alt="Pavel Ondra" />
     </a>
     <div class="info">
       <h2>Pavel Ondra</h2>
-      <h3>Accessibility CodeLab</h3>
+      <h3>Accessibility CodeLab</h3>     
     </div>
   </div>
   <div class="speaker lab">
-    <a href="https://plus.google.com/109217431653727417114/posts">
+    <a href="https://plus.google.com/118203152533797031951/posts">
       <img src="/data/imgs/recnici/radek-pavlicek.jpg" width="200" height="250" alt="Radek Pavlíček" />
     </a>
     <div class="info">

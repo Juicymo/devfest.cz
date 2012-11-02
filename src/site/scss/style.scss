@@ -70,11 +70,11 @@ section {
       padding-top: 3px;
     }
     iframe {
-      margin-top: 10px;
       border: 1px solid $border-hero-unit;
       width: 99%;
-      @media (max-width: 767px) {
-        margin: 0 0 10px;
+      margin: 0 0 10px;
+      @media (min-width: 768px) {
+        margin: 10px 0 0;
       }
     }
     iframe + a {
@@ -209,24 +209,19 @@ section {
 
 /* override because we have an image in there */
 .navbar a.brand {
-  padding: 9px 5px 0 20px;
-  font-size: $baseFontSize + 2;
+  padding-bottom: 0;
+  font-size: $baseFontSize - 4;
+  min-width: 0;
   @media (max-width: 979px) {
     min-width: 400px;
-  }
-  .slogan {
-      min-width: 350px;
-      font-size: 10px;
-      padding-left: 20px;
   }
   img {
     margin-right: 5px;
     margin-top: -4px;
   }
-  @media (max-width: 767px) {
-    font-size: $baseFontSize - 4;
-    padding-right: 0;
-    min-width: 0;
+  @media (min-width: 768px) {
+    padding-right: 5px;
+    font-size: $baseFontSize + 2;
   }
 }
 
@@ -266,8 +261,9 @@ section {
 }
 
 .nav-collapse, .nav-collapse.collapse {
-  @media (max-width: 767px) {
     overflow: auto !important;
+  @media (max-width: 768px) {
+    overflow: visible !important;
   }
 }
 
@@ -375,9 +371,9 @@ article.homepage {
     margin-left: 0;
   }
   .tab-pane {
-    min-height: 140px;
-    @media (max-width: 767px) {
-       min-height: 0;
+    min-height: 0;
+    @media (max-width: 768px) {       
+       min-height: 140px;
     }
   }
 }
@@ -594,6 +590,9 @@ footer {
     font-weight: normal;
     font-family: $funsansFontFamily;
   }
+  .long-name h3 {
+    padding: 15px 15px 0;
+  }
   .organizator:hover {
     -webkit-transform: scale(1.4);
     -moz-transform: scale(1.4);
@@ -619,7 +618,12 @@ footer {
         width: 200px;   
       }
   } 
-  
+  .span8 {
+    margin-bottom: 10px;
+    @media (min-width: 768px) {
+      margin-bottom: 0; 
+    }
+  }  
   h2 {
     line-height: 1.2;
     font-size: 30px;
@@ -633,7 +637,7 @@ footer {
     }
   }
   div.visible-phone {
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 20px;
     border-bottom: 1px dashed #d2d2d3;
   }
@@ -795,10 +799,10 @@ footer {
         margin-bottom: 0;
       }
       .inside-1 {
-        background: transparent url('../imgs/program-arrow-2.png') top left no-repeat;
+        background: transparent url('../imgs/program-arrow.png') top left no-repeat;
       }
       .inside-2 {
-        background: transparent url('../imgs/program-arrow-2.png') bottom right no-repeat;
+        background: transparent url('../imgs/program-arrow.png') right -188px no-repeat;
         position: relative;
       }
     }
@@ -821,12 +825,12 @@ footer {
         margin-left: 0;
       }     
       .inside-1 {
-        background: transparent url('../imgs/program-arrow-3.png') left top no-repeat;
+        background: transparent url('../imgs/program-arrow.png') left -376px no-repeat;
       }
       .inside-2 {
         padding: 10px 0;
         height: 61px;
-        background: transparent url('../imgs/program-arrow-3.png') right bottom no-repeat;
+        background: transparent url('../imgs/program-arrow.png') right -457px no-repeat;
       }
     }
   } 
