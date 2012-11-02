@@ -261,9 +261,8 @@ section {
 }
 
 .nav-collapse, .nav-collapse.collapse {
+  @media (max-width: 767px) {
     overflow: auto !important;
-  @media (max-width: 768px) {
-    overflow: visible !important;
   }
 }
 

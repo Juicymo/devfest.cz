@@ -18,6 +18,20 @@
   margin: 0;
 }  
 
+#program .empty {
+	float: left;
+}
+
+#program .empty span {
+    width: 110px;
+    height: 100%;
+    display: block;
+}
+
+#program .row {
+	margin-bottom: 10px;
+}
+
 /* IE7 */
 * + html .carousel .item {
 	height: 300px !important;
@@ -32,4 +46,5 @@
 	width: 60px;
 	background: transparent url('../imgs/agnes.png') top left no-repeat;
 	text-indent: -9999px;
+	z-index: 99999;
 }
