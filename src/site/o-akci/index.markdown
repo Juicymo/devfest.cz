@@ -5,7 +5,7 @@ title: "O akci"
 
 #O akci
 	
-DevFest je oslavou našeho vývojářského řemesla, je to nový svátek pro nás vývojáře, pány počítačů. Je to jeden den **od vývojářů, pro vývojáře**. DevFest pro vás připravil tým organizátorů z řad celého GUG.cz s vydatnou a vítanou pomocí od Google ČR. Našemu týmu je velkou ctí a privilegiem, že pro vás může tyto akce pořádat. Tato akce by nikdy nebyla bez velkého úsilí všech organizátorů uvedených níže a hlavně a především bez podpory *vás, účastníků*. Děkujeme a těšíme se v sobotu!
+DevFest je oslavou našeho vývojářského řemesla a nový svátek. Je to jeden den **od vývojářů, pro vývojáře**. DevFest pro vás připravil tým organizátorů z řad celého GUG.cz s vydatnou pomocí Google ČR. Našemu týmu je velkou ctí, že pro vás může tyto akce pořádat, a hlavně nás to hodně baví. Tato akce by se neuskutečnila bez úsilí všech organizátorů uvedených níže za podpory dalších GUGerů a hlavně *vás, účastníků*. Děkujeme a těšíme se v sobotu!
 
 <section id="about">
 	<div class="row">
