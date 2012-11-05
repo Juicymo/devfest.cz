@@ -10,21 +10,30 @@ A doufejme, že #failcon nebude #fail.
 
 <section id="speakers">
   <div class="speaker failcon">
-    <img src="/data/imgs/recnici/karel-janecek.jpg" width="200" height="250" alt="Karel Janeček" />
+    <a href="http://www.kareljanecek.com/">
+      <img src="/data/imgs/recnici/karel-janecek.jpg" width="200" height="250" alt="Karel Janeček" />
+    </a>
     <div class="info">
       <h2>Karel Janeček</h2>
+      <h3>#FailCon</h3>
     </div>
   </div>
   <div class="speaker failcon">
-    <img src="/data/imgs/recnici/tomas-hajzler.jpg" width="200" height="250" alt="Tomáš Hajzler" />
+    <a href="https://twitter.com/TomasHajzler">
+      <img src="/data/imgs/recnici/tomas-hajzler.jpg" width="200" height="250" alt="Tomáš Hajzler" />
+    </a>
     <div class="info">
       <h2>Tomáš Hajzler</h2>
+      <h3>#FailCon</h3>
     </div>
   </div>
   <div class="speaker failcon">
-    <img src="/data/imgs/recnici/vit-vrba.jpg" width="200" height="250" alt="Vít Vrba" />
+    <a href="https://twitter.com/VitVrba">
+      <img src="/data/imgs/recnici/vit-vrba.jpg" width="200" height="250" alt="Vít Vrba" />
+    </a>   
     <div class="info">
       <h2>Vít Vrba</h2>
+      <h3>#FailCon</h3>
     </div>
   </div>
   <div class="speaker failcon">

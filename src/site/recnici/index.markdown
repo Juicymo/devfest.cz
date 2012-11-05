@@ -170,15 +170,6 @@ title: "Řečníci"
       <h3>Accessibility CodeLab</h3>     
     </div>
   </div>
-  <div class="speaker lab">
-    <a href="https://plus.google.com/118203152533797031951/posts">
-      <img src="/data/imgs/recnici/radek-pavlicek.jpg" width="200" height="250" alt="Radek Pavlíček" />
-    </a>
-    <div class="info">
-      <h2>Radek Pavlíček</h2>
-      <h3>Accessibility CodeLab</h3>
-    </div>
-  </div>
   <div class="speaker other">
     <a href="http://www.myspace.com/tomasreindl">
       <img src="/data/imgs/recnici/tomas-reindl.jpg" width="200" height="250" alt="Tomáš Reindl" />
@@ -187,5 +178,39 @@ title: "Řečníci"
       <h2>Tomáš Reindl</h2>
       <h3>OMNION aneb jednočlenný sebe-smyčkovací orchestr</h3>
     </div>
+  </div>
+  <div style="clear: left;" ></div> 
+  <div class="speaker failcon">
+    <a href="http://www.kareljanecek.com/">
+      <img src="/data/imgs/recnici/karel-janecek.jpg" width="200" height="250" alt="Karel Janeček" />
+    </a>
+    <div class="info">
+      <h2>Karel Janeček</h2>
+      <h3>#FailCon</h3>
+    </div>
+  </div>
+  <div class="speaker failcon">
+    <a href="https://twitter.com/TomasHajzler">
+      <img src="/data/imgs/recnici/tomas-hajzler.jpg" width="200" height="250" alt="Tomáš Hajzler" />
+    </a>
+    <div class="info">
+      <h2>Tomáš Hajzler</h2>
+      <h3>#FailCon</h3>
+    </div>
+  </div>
+  <div class="speaker failcon">
+    <a href="https://twitter.com/VitVrba">
+      <img src="/data/imgs/recnici/vit-vrba.jpg" width="200" height="250" alt="Vít Vrba" />
+    </a>   
+    <div class="info">
+      <h2>Vít Vrba</h2>
+      <h3>#FailCon</h3>
+    </div>
+  </div>
+  <div class="speaker failcon">
+    <img src="/data/imgs/recnici/no-name.jpg" width="200" height="250" alt="?" />
+  </div>
+  <div class="speaker failcon">
+    <img src="/data/imgs/recnici/no-name.jpg" width="200" height="250" alt="?" />
   </div>
 </section>

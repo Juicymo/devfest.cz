@@ -72,6 +72,7 @@ section {
     iframe {
       border: 1px solid $border-hero-unit;
       width: 99%;
+      oveflow: hidden;
       margin: 0 0 10px;
       @media (min-width: 768px) {
         margin: 10px 0 0;
@@ -211,10 +212,6 @@ section {
 .navbar a.brand {
   padding-bottom: 0;
   font-size: $baseFontSize - 4;
-  min-width: 0;
-  @media (max-width: 979px) {
-    min-width: 400px;
-  }
   img {
     margin-right: 5px;
     margin-top: -4px;
@@ -393,6 +390,7 @@ article.homepage {
     text-indent: -99999px;
     width: 165px;
     height: 60px;
+    overflow: hidden;
   }
   ul {
     margin: 0 auto;
@@ -516,6 +514,9 @@ footer {
 }
 #about {
   overflow: visible;
+  .row {
+    margin-top: 20px;
+  }
 }
 #organizators {
   .organizator {
@@ -745,14 +746,23 @@ footer {
       color: white;
     }
     h2 {
-      font-size: 20px;
-      padding: 10px 20px 5px 30px;
+      font-size: 30px;
+      padding: 20px 20px 20px 30px;
+      @media (min-width: 768px) {
+        font-size: 20px;
+        padding: 10px 20px 5px 30px;
+      }     
     }
     h3 {
       padding: 70px 30px 0 0;
     }
     p {
-      padding: 0 25px 12px 17px;
+      font-size: 16px;
+      padding: 0 35px 12px 17px;
+      @media (min-width: 768px) {
+        font-size: 13px;
+        padding-right: 25px;
+      }     
     }
     .row {
       margin-left: 0;
@@ -793,16 +803,25 @@ footer {
     }
     .span2 {
       height: 188px;
+      @media (max-width: 979px) and (min-width: 768px) {
+        height: 250px;
+      }
       margin-bottom: 10px;
       @media (min-width: 768px) {
         margin-bottom: 0;
       }
       .inside-1 {
         background: transparent url('../imgs/program-arrow.png') top left no-repeat;
+        @media (max-width: 979px) and (min-width: 768px) {
+          background: transparent url('../imgs/program-arrow-tablet.png') top left no-repeat;
+        }
       }
       .inside-2 {
         background: transparent url('../imgs/program-arrow.png') right -188px no-repeat;
         position: relative;
+        @media (max-width: 979px) and (min-width: 768px) {
+          background: transparent url('../imgs/program-arrow-tablet.png') right bottom no-repeat;
+        }
       }
     }
   }

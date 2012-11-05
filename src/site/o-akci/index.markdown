@@ -3,11 +3,13 @@ layout: default
 title: "O akci"
 ---
 
-#O akci
-	
-DevFest je oslavou našeho vývojářského řemesla a nový svátek. Je to jeden den **od vývojářů, pro vývojáře**. DevFest pro vás připravil tým organizátorů z řad celého GUG.cz s vydatnou pomocí Google ČR. Našemu týmu je velkou ctí, že pro vás může tyto akce pořádat, a hlavně nás to hodně baví. Tato akce by se neuskutečnila bez úsilí všech organizátorů uvedených níže za podpory dalších GUGerů a hlavně *vás, účastníků*. Děkujeme a těšíme se v sobotu!
-
 <section id="about">
+	<h1>O akci</h1>
+	<p>DevFest je oslavou našeho vývojářského řemesla a nový svátek. Je to jeden den <strong>od vývojářů, pro vývojáře</strong>. DevFest pro vás připravil tým organizátorů z řad celého GUG.cz s vydatnou pomocí Google ČR. Našemu týmu je velkou ctí, že pro vás může tyto akce pořádat, a hlavně nás to hodně baví. Tato akce by se neuskutečnila bez úsilí všech organizátorů uvedených níže za podpory dalších GUGerů a hlavně <em>vás, účastníků</em>. Děkujeme a těšíme se v sobotu!</p>
+	<p>Připravujeme s podporou týmu GDG Košice.</p>
+	<a href="https://plus.google.com/108346197166929309455/posts">
+		<img src="/imgs/gdg-kosice.png" width="200" height="36" alt="GDG Košice" />
+	</a>
 	<div class="row">
 		<div class="span12">
 			<h2>Organizátoři</h2>
