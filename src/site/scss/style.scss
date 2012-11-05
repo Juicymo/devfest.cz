@@ -751,7 +751,10 @@ footer {
       @media (min-width: 768px) {
         font-size: 20px;
         padding: 10px 20px 5px 30px;
-      }     
+      }   
+      @media (max-width: 979px) and (min-width: 768px) {
+        font-size: 19px;
+      }  
     }
     h3 {
       padding: 70px 30px 0 0;
