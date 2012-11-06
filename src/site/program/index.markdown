@@ -156,10 +156,10 @@ Program
 				<div class="span2 other">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Marek Šebera</h2>
-							<p>Vývoj variabilních extensions pro Google Chrome, Firefox, IE</p>			
-							<a href="https://plus.google.com/102815305122253501866/posts">
-								<img src="/data/imgs/recnici/marek-sebera-small.jpg" width="40" height="40" alt="Marek Šebera" />
+							<h2>Richard Fridrich</h2>
+							<p>Rozšírenia pre Chrome rýchlo a bezbolestne</p>						
+							<a href="https://plus.google.com/111453401774376620498/posts">
+								<img src="/data/imgs/recnici/richard-fridrich-small.jpg" width="40" height="40" alt="Richard Fridrich" />
 							</a>
 							<span class="room pull-left visible-phone">ZX Spectrum</span>
 						</div>
@@ -216,10 +216,10 @@ Program
 				<div class="span2 other">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Richard Fridrich</h2>
-							<p>Rozšírenia pre Chrome rýchlo a bezbolestne</p>						
-							<a href="https://plus.google.com/111453401774376620498/posts">
-								<img src="/data/imgs/recnici/richard-fridrich-small.jpg" width="40" height="40" alt="Richard Fridrich" />
+							<h2>Marek Sebera</h2>
+							<p>Vývoj variabilních extensions pro Google Chrome, Firefox, IE</p>			
+							<a href="https://plus.google.com/102815305122253501866/posts">
+								<img src="/data/imgs/recnici/marek-sebera-small.jpg" width="40" height="40" alt="Marek Sebera" />
 							</a>
 							<span class="room pull-left visible-phone">Atari</span>
 						</div>

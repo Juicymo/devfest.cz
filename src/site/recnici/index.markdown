@@ -139,7 +139,7 @@ title: "Řečníci"
       <img src="/data/imgs/recnici/marek-sebera.jpg" width="200" height="250" alt="Marek Šebera" />
     </a>
     <div class="info">
-      <h2>Marek Šebera</h2>
+      <h2>Marek Sebera</h2>
       <h3>Vývoj variabilních extensions pro Google Chrome, Firefox, IE</h3>
     </div>
   </div>
@@ -208,9 +208,21 @@ title: "Řečníci"
     </div>
   </div>
   <div class="speaker failcon">
-    <img src="/data/imgs/recnici/no-name.jpg" width="200" height="250" alt="?" />
+    <a href="https://plus.google.com/114785508691464238375/posts">
+      <img src="/data/imgs/recnici/pavel-sodomka.jpg" width="200" height="250" alt="Pavel Sodomka" />
+    </a>   
+    <div class="info">
+      <h2>Pavel Sodomka</h2>
+      <h3>#FailCon</h3>
+    </div>
   </div>
   <div class="speaker failcon">
-    <img src="/data/imgs/recnici/no-name.jpg" width="200" height="250" alt="?" />
+    <a href="https://twitter.com/obartos">
+      <img src="/data/imgs/recnici/ondrej-bartos.jpg" width="200" height="250" alt="Ondřej Bartoš" />
+    </a>   
+    <div class="info">
+      <h2>Ondřej Bartoš</h2>
+      <h3>#FailCon</h3>
+    </div>
   </div>
 </section>
