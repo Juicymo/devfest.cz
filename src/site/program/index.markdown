@@ -18,13 +18,13 @@ Program
 					<h3>ENIAC</h3>					
 				</div>
 				<div class="span2 title">
-					<h3>ZX Spectrum</h3>					
+					<h3>UNIVAC</h3>					
 				</div>
 				<div class="span2 title">
-					<h3>Atari</h3>				
+					<h3>Z1</h3>				
 				</div>
 				<div class="span2 title">
-					<h3>Z1 (codelabs)</h3>				
+					<h3>TRADIC</h3>				
 				</div>
 			</div>
 		</div>
@@ -85,7 +85,7 @@ Program
 							<a href="https://plus.google.com/118203152533797031951/posts">
 								<img src="/data/imgs/recnici/radek-pavlicek-small.jpg" width="40" height="40" alt="Radek Pavlíček" />
 							</a>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
 					</div>
 				</div>
@@ -97,7 +97,7 @@ Program
 							<a href="http://www.myspace.com/tomasreindl">
 								<img src="/data/imgs/recnici/tomas-reindl-small.jpg" width="40" height="40" alt="Tomáš Reindl" />
 							</a>
-							<span class="room pull-left visible-phone">Atari</span>
+							<span class="room pull-left visible-phone">Z1</span>
 						</div>
 					</div>
 				</div>
@@ -131,7 +131,7 @@ Program
 							<a href="https://plus.google.com/115748350099126853184/posts">
 								<img src="/data/imgs/recnici/ivan-kutil-small.jpg" width="40" height="40" alt="Ivan Kutil" />
 							</a>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
 					</div>
 				</div>
@@ -161,7 +161,7 @@ Program
 							<a href="https://plus.google.com/111453401774376620498/posts">
 								<img src="/data/imgs/recnici/richard-fridrich-small.jpg" width="40" height="40" alt="Richard Fridrich" />
 							</a>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
 					</div>
 				</div>
@@ -171,7 +171,7 @@ Program
 							<h2>FightClub</h2>
 							<p>FightClub je realtime soubojem mobilních vývojářů, tři týmy, jedno zadání, 90 minut a 10 úkolů. Víc vám nepovíme, protože o FightClubu se nemluví!</p>
 							<a href="/fightclub/" style="display: none;">více o FightClubu</a>
-							<span class="room pull-left visible-phone">Atari</span>
+							<span class="room pull-left visible-phone">Z1</span>
 						</div>
 					</div>
 				</div>
@@ -183,7 +183,7 @@ Program
 							<a href="https://plus.google.com/118203152533797031951/posts">
 								<img src="/data/imgs/recnici/radek-pavlicek-small.jpg" width="40" height="40" alt="Radek Pavlíček" />
 							</a>
-							<span class="room pull-left visible-phone">Z1</span>
+							<span class="room pull-left visible-phone">TRADIC</span>
 						</div>
 					</div>
 				</div>
@@ -221,7 +221,7 @@ Program
 							<a href="https://plus.google.com/102815305122253501866/posts">
 								<img src="/data/imgs/recnici/marek-sebera-small.jpg" width="40" height="40" alt="Marek Sebera" />
 							</a>
-							<span class="room pull-left visible-phone">Atari</span>
+							<span class="room pull-left visible-phone">Z1</span>
 						</div>
 					</div>
 				</div>
@@ -251,23 +251,23 @@ Program
 					<div class="inside-1">
 						<div class="inside-2">
 							<h2>Tomáš Zvěřina</h2>
-							<p>App Engine - Objectify</p>
+							<p>Objectify pro AppEngine</p>
 							<a href="https://plus.google.com/105785308934677545572/posts">
 								<img src="/data/imgs/recnici/tomas-zverina-small.jpg" width="40" height="40" alt="Tomáš Zvěřina" />
 							</a>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
 					</div>
 				</div>
-				<div class="span2 web">
+				<div class="span2 other">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Ladislav Prskavec</h2>
-							<p>Postavte si zeď mezi svoje vývojáře</p>						
-							<a href="https://plus.google.com/113391188023467233438/posts">
-								<img src="/data/imgs/recnici/ladislav-prskavec-small.jpg" width="40" height="40" alt="Ladislav Prskavec" />
+							<h2>Robert Dresler</h2>
+							<p>Urychlovače vývojářova profesního růstu</p>							
+							<a href="https://twitter.com/rdresler">
+								<img src="/data/imgs/recnici/robert-dresler-small.jpg" width="40" height="40" alt="Robert Dresler" />
 							</a>
-							<span class="room pull-left visible-phone">Atari</span>
+							<span class="room pull-left visible-phone">Z1</span>
 						</div>
 					</div>
 				</div>
@@ -291,29 +291,40 @@ Program
 						</div>
 					</div>					
 				</div>
-				<div class="span2 web">
+				<div class="span2 other">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h3>Bude doplněno</h3>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<h2>Vojtěch Vítek</h2>
+							<p>OpenShift as a Cloud backend for your Mobile Apps</p>
+							<a href="https://plus.google.com/105770923965008932478/posts">
+								<img src="/data/imgs/recnici/vojtech-vitek-small.jpg" width="40" height="40" alt="Vojtěch Vítek" />
+							</a>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
-					</div>
+					</div>					
 				</div>
-				<div class="span2 web">
+				<div class="span2 android">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h3>Bude doplněno</h3>
-							<span class="room pull-left visible-phone">Atari</span>
+							<h2>Petr Nálevka</h2>
+							<p>Spíme s Androidem</p>
+							<a href="https://plus.google.com/u/0/116088533685577893615/posts">
+								<img src="/data/imgs/recnici/petr-nalevka-small.jpg" width="40" height="40" alt="Petr Nálevka" />
+							</a>
+							<span class="room pull-left visible-phone">Z1</span>
 						</div>
-					</div>
+					</div>					
 				</div>
 				<div class="span2 lab">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h3>Bude doplněno</h3>
-							<span class="room pull-left visible-phone">Z1</span>
+							<h2>Ladislav Thon</h2>
+							<a href="https://plus.google.com/110742501143171151210/posts">
+								<img src="/data/imgs/recnici/ladislav-thon-small.jpg" width="40" height="40" alt="Ladislav Thon" />
+							</a>
+							<span class="room pull-left visible-phone">TRADIC</span>
 						</div>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</div>
@@ -345,27 +356,30 @@ Program
 							<a href="https://plus.google.com/+Jakub%C4%8C%C3%AD%C5%BEek/posts">
 								<img src="/data/imgs/recnici/jakub-cizek-small.jpg" width="40" height="40" alt="Jakub Čížek" />
 							</a>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
 					</div>
 				</div>
-				<div class="span2 other">
+				<div class="span2 web">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Robert Dresler</h2>
-							<p>Urychlovače vývojářova profesního růstu</p>							
-							<a href="https://twitter.com/rdresler">
-								<img src="/data/imgs/recnici/robert-dresler-small.jpg" width="40" height="40" alt="Robert Dresler" />
+							<h2>Ladislav Prskavec</h2>
+							<p>Postavte si zeď mezi svoje vývojáře</p>						
+							<a href="https://plus.google.com/113391188023467233438/posts">
+								<img src="/data/imgs/recnici/ladislav-prskavec-small.jpg" width="40" height="40" alt="Ladislav Prskavec" />
 							</a>
-							<span class="room pull-left visible-phone">Atari</span>
+							<span class="room pull-left visible-phone">Z1</span>
 						</div>
 					</div>
 				</div>
 				<div class="span2 lab">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h3>Bude doplněno</h3>
-							<span class="room pull-left visible-phone">Z1</span>
+							<h2>Marek Sebera</h2>		
+							<a href="https://plus.google.com/102815305122253501866/posts">
+								<img src="/data/imgs/recnici/marek-sebera-small.jpg" width="40" height="40" alt="Marek Sebera" />
+							</a>
+							<span class="room pull-left visible-phone">TRADIC</span>
 						</div>
 					</div>
 				</div>
@@ -382,25 +396,26 @@ Program
 				<div class="span2 web">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Daniel Steigerwald</h2>
-							<p>TodoMVC v Este.js. Srovnání s imlementacemi</p>							
-							<a href="https://plus.google.com/101409281065555048852/posts">
-								<img src="/data/imgs/recnici/daniel-steigerwald-small.jpg" width="40" height="40" alt="Daniel Steigerwald" />
+							<h2>Vojta Jína</h2>
+							<p>Building awesome client-side web apps with AngularJS</p>							
+							<a href="https://plus.google.com/117663020319348671498/posts">
+								<img src="/data/imgs/recnici/vojta-jina-small.jpg" width="40" height="40" alt="Vojta Jína" />
 							</a>
 							<span class="room pull-left visible-phone">ENIAC</span>
 						</div>
-					</div>					
+					</div>
 				</div>
-				<div class="span2 dev clickable">
+				<div class="span2 web">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>GUGCamp</h2>
-							<p>Přehlídka vašich aplikací s Google technologiemi a vybrání té nejlepší z nich
-							</p>
-							<a href="/gugcamp/" style="display: none;">více o GugCampu</a>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<h2>Daniel Steigerwald</h2>
+							<p>TodoMVC v Este.js</p>							
+							<a href="https://plus.google.com/101409281065555048852/posts">
+								<img src="/data/imgs/recnici/daniel-steigerwald-small.jpg" width="40" height="40" alt="Daniel Steigerwald" />
+							</a>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
-					</div>
+					</div>					
 				</div>
 				<div class="span2 other">
 					<div class="inside-1">
@@ -410,19 +425,18 @@ Program
 							<a href="https://plus.google.com/106378848135270560799/posts">
 								<img src="/data/imgs/recnici/frantisek-fuka-small.jpg" width="40" height="40" alt="František Fuka" />
 							</a>
-							<span class="room pull-left visible-phone">Atari</span>
+							<span class="room pull-left visible-phone">Z1</span>
 						</div>
 					</div>
 				</div>
-				<div class="span2 lab">
+				<div class="span2 dev clickable">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h2>Vojta Jína</h2>
-							<p>Angular.JS lab</p>							
-							<a href="https://plus.google.com/117663020319348671498/posts">
-								<img src="/data/imgs/recnici/vojta-jina-small.jpg" width="40" height="40" alt="Vojta Jína" />
-							</a>
-							<span class="room pull-left visible-phone">Z1</span>
+							<h2>GUGCamp</h2>
+							<p>Přehlídka vašich aplikací s Google technologiemi a vybrání té nejlepší z nich
+							</p>
+							<a href="/gugcamp/" style="display: none;">více o GugCampu</a>
+							<span class="room pull-left visible-phone">TRADIC</span>
 						</div>
 					</div>
 				</div>
@@ -436,21 +450,29 @@ Program
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
-				<div class="span2 web">
+				<div class="span2 web offset2">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h3>Bude doplněno</h3>
-							<span class="room pull-left visible-phone">ENIAC</span>
+							<h2>Jiří Bachel</h2>
+							<p>Sledování, Chrome vs Firefox a HTML5</p>							
+							<a href="http://www.linkedin.com/pub/ji%C5%99%C3%AD-bachel/53/733/254">
+								<img src="/data/imgs/recnici/jiri-bachel-small.jpg" width="40" height="40" alt="Jiří Bachel" />
+							</a>
+							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
 					</div>					
 				</div>
-				<div class="span2 web">
+				<div class="span2 web offset2">
 					<div class="inside-1">
 						<div class="inside-2">
-							<h3>Bude doplněno</h3>
-							<span class="room pull-left visible-phone">ZX Spectrum</span>
+							<h2>Ondřej Kučera</h2>
+							<p>Nebojme se XML</p>							
+							<a href="https://plus.google.com/103679889782528149555/about">
+								<img src="/data/imgs/recnici/ondrej-kucera-small.jpg" width="40" height="40" alt="Ondřej Kučera" />
+							</a>
+							<span class="room pull-left visible-phone">TRADIC</span>
 						</div>
-					</div>
+					</div>		
 				</div>
 			</div>
 		</div>

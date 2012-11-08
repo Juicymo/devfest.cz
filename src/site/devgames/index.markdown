@@ -8,7 +8,7 @@ DevGames
 
 DevGames jsou doprovodný program na DevFestu. Je to série krátkých úloh, které prověří vaše coding skills. Svůj notebook připojíte na DevGames server a soutěž může začít. Kdo se první dostane na nejvyšší level?
 
-Ti nejlepší budou mít možnost prvního kola přijímacího řízení na vývojářskou pozici přímo u Google! Kdo má zájem, tak vytištěné CV s sebou.
+Ti nejlepší budou mít možnost prvního kola přijímacího řízení na vývojářskou pozici přímo u Google! Kdo má zájem, tak vytištěné CV v angličtině s sebou.
 
 Kdy a kde?
 ----------
@@ -31,4 +31,4 @@ Ceny
 *   První 3 dostanou figurku Androida.
 *   První 3, kteří splňují podmínky, mají šanci po 18té hodině projít screeningem na pozici Sofware Engineer u Google. Podmínky:
     *   vážný zájem o práci pro Google v zahraničí
-    *   vytištěné aktuální CV s sebou
+    *   vytištěné aktuální CV v angličtině s sebou

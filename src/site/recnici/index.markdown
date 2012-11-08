@@ -32,7 +32,7 @@ title: "Řečníci"
     </a>
     <div class="info">
       <h2>Vojta Jína</h2>
-      <h3>Angular JS</h3>
+      <h3>Building awesome client-side web apps with AngularJS</h3>
     </div>
   </div>
   <div class="speaker android">
@@ -59,7 +59,7 @@ title: "Řečníci"
     </a>
     <div class="info">
       <h2>Daniel Steigerwald</h2>
-      <h3>TodoMVC v Este.js. Srovnání s imlementacemi</h3>
+      <h3>TodoMVC v Este.js</h3>
     </div>
   </div>
   <div class="speaker other">
@@ -122,7 +122,7 @@ title: "Řečníci"
     </a>
     <div class="info">
       <h2>Tomáš Zvěřina</h2>
-      <h3>App Engine - Objectify</h3>
+      <h3>Objectify pro AppEngine</h3>
     </div>
   </div>
   <div class="speaker web">
@@ -177,6 +177,42 @@ title: "Řečníci"
     <div class="info">
       <h2>Tomáš Reindl</h2>
       <h3>OMNION aneb jednočlenný sebe-smyčkovací orchestr</h3>
+    </div>
+  </div>
+  <div class="speaker other">
+    <a href="https://plus.google.com/105770923965008932478/posts">
+      <img src="/data/imgs/recnici/vojtech-vitek.jpg" width="200" height="250" alt="Vojtěch Vítek" />
+    </a>
+    <div class="info">
+      <h2>Vojtěch Vítek</h2>
+      <h3>OpenShift as a Cloud backend for your Mobile Apps</h3>
+    </div>
+  </div>
+  <div class="speaker android">
+    <a href="https://plus.google.com/u/0/116088533685577893615/posts">
+      <img src="/data/imgs/recnici/petr-nalevka.jpg" width="200" height="250" alt="Petr Nálevka" />
+    </a>
+    <div class="info">
+      <h2>Petr Nálevka</h2>
+      <h3>Spíme s Androidem</h3>
+    </div>
+  </div>
+  <div class="speaker web">
+    <a href="http://www.linkedin.com/pub/ji%C5%99%C3%AD-bachel/53/733/254">
+      <img src="/data/imgs/recnici/jiri-bachel.jpg" width="200" height="250" alt="Jiří Bachel" />
+    </a>
+    <div class="info">
+      <h2>Jiří Bachel</h2>
+      <h3>Sledování, Chrome vs Firefox a HTML5</h3>
+    </div>
+  </div>
+  <div class="speaker web">
+    <a href="https://plus.google.com/103679889782528149555/about">
+      <img src="/data/imgs/recnici/ondrej-kucera.jpg" width="200" height="250" alt="Ondřej Kučera" />
+    </a>
+    <div class="info">
+      <h2>Ondřej Kučera</h2>
+      <h3>Nebojme se XML</h3>
     </div>
   </div>
   <div style="clear: left;" ></div> 

@@ -760,7 +760,7 @@ footer {
       padding: 0 35px 12px;
       @media (min-width: 768px) {
         font-size: 13px;
-        padding-right: 25px;
+        padding-right: 30px;
       }     
     }
     .row {
@@ -821,6 +821,14 @@ footer {
         @media (max-width: 979px) and (min-width: 768px) {
           background: transparent url('../imgs/program-arrow-tablet.png') right bottom no-repeat;
         }
+      }
+    }
+    .span2.offset2 {
+      @media (min-width: 768px) {
+        margin-left: 200px;
+      }
+      @media (max-width: 979px) and (min-width: 768px) {
+        margin-left: 150px;
       }
     }
   }
