@@ -1,5 +1,5 @@
 	</div> <!-- /.container -->
-
+	{% include curtain.html %}  
 	<footer>
 		<div class="container">
 			<div class="row copyright">
@@ -11,5 +11,18 @@
 			</div>
 		</div>
 	</footer>
+{% bundle %}
+- /js/jquery-1.7.2.min.js
+- /js/bootstrap-tab.js
+- /js/bootstrap-collapse.js
+	{% if page.type == "home" %}
+- /js/jquery.countdown.min.js
+- /js/bootstrap-carousel.js
+- /js/bootstrap-transition.js
+- /js/jquery.lifestream.min.js    
+	{%endif%}
+- /js/forkit.js 
+- /js/init.js
+{% endbundle %}
 </body>
 </html>

@@ -1,0 +1,30 @@
+#countdown {
+  width: 325px;
+  margin: 0 auto;
+  p {
+    text-align: left;
+    margin-left: 10px;
+  }
+  li {
+    text-align: center;
+    margin: 0 5px;
+  }
+  span {
+    display: block;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1;
+    padding-bottom: 5px;
+    border-bottom: 5px solid $blue-dark;
+    margin-bottom: 5px;
+  }
+  #hours {
+    border-color: $red-light;
+  }
+  #minutes {
+    border-color: $yellow-dark;
+  }
+  #seconds {
+    border-color: $green-dark;
+  }
+}

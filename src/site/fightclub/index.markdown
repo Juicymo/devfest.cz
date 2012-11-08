@@ -3,7 +3,8 @@ layout: default
 title: "FightClub"
 ---
 
-## FightClub
+FightClub
+=========
 
 Kromě mnoha dalších věcí se na [**DevFestu 2012**](http://www.devfest.cz), představí poprvé v ČR FightClub.
 
@@ -19,7 +20,3 @@ Výkony týmů budou ohodnoceny a na závěr povstane **jen jeden vítěz**!
 Otázka tedy zní - **pustíte se neohroženě do boje na ostří kláves**? 
 
 10.11., Praha, odpolední hodiny
-
-<a href="https://docs.google.com/spreadsheet/viewform?formkey=dEZGNVl6Vm9IdWlGcXM4UkdUYnl1bHc6MA#gid=0" class="btn btn-primary" target="_blank">
-  Chci soutěžit ve FightClubu
-</a>

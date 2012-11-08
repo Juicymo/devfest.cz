@@ -1,111 +1,98 @@
 ---
 layout: default
+type: home
+cssClass: home
 ---
-
 <article class="homepage">
 
 <section>
-
-  <div class="row">
-    <div class="span12">
-      <div class="header">
+  <div class="header">
+    <div class="row">
+      <div class="span6">
         <h1>
-          <a href="http://www.gug.cz/">GUG.cz</a> a <a href="http://google-cz.blogspot.cz/">Google</a> vás zvou na <br />
-          podzimní vývojářský festival
-          <span class="big">DevFest Praha&nbsp;2012</span>
+          <a href="/">
+            <img src="/imgs/devfest-logo.png" width="381" height="70" alt="DevFest Praha">
+          </a>
         </h1> 
         <p class="motto">Den plný technologií, zážitků, networkingu,<br /> přednášek a kódu (v uvedeném pořadí)!</p>
-        <div class="register register-button">
-          <p>
-            Jsem IN! Chci přijít. Registrace je nutná a ZDARMA.
-          </p>
-          {% include register.html %}
-        </div> 
-        <p>a/nebo</p>
-        <ul class="buttons menu">
-          <li>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEVvbHI4dlBLeVhWS2p4N0tDNjRDakE6MQ#gid=0" class="btn" target="_blank">
-              Chci přednášet
-            </a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGs4Z1hCQi02dWgxWFBoUXhSamFpR1E6MA#gid=0" class="btn" target="_blank">
-              Chci přihlásit aplikaci na GUGCamp
-            </a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEZGNVl6Vm9IdWlGcXM4UkdUYnl1bHc6MA#gid=0" class="btn" target="_blank">
-              Chci soutěžit ve FightClubu
-            </a>
-          </li>
-        </ul>       
-        <!--<p><em>Registrace uzavíráme 26. 10. 2012</em></p>-->
-        <p style="margin-top:1em;"><span style="background:red; color: white; padding:
-          0.3em;">NOVĚ:</span> Máme <a href="/recnici/"
-        style="text-decoration:underline;">seznam řečníků</a>. Je patřičně
-        našlapaný.</p>
+      </div>
+      <div class="span6 countdown">
+        <div id="countdown">
+          <p>DevFest Praha 2012 začíná již za</p>
+          <ul class="menu menu-h">
+            <li>
+              <span id="days"></span> Dní
+            </li>
+            <li>
+              <span id="hours"></span> Hodin
+            </li>
+            <li>
+              <span id="minutes"></span> Minut
+            </li>
+            <li>
+              <span id="seconds"></span> Vteřin
+            </li>
+          </ul>    
+        </div>
       </div>
     </div>
-  </div>
+    <div class="row">
+      <div class="span12">
+        <div class="register register-button">
+          <p>
+            Registrace je uzavřena, těšíme se na vás!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>  
 </section>
 
 <section>
-
   <div class="row callouts">
-    <div class="span3 where">
-      <h2><i class="icon-home"></i> Kde?</h2>
-      <p>
-        V prostorách ČVUT - <strong>Fakulty strojní</strong>, <br />
-        v Praze v Dejvicích.
-      </p>
-      <address>
-        Technická 4<br />
-        Praha 6&nbsp;&nbsp;166 07
-      </address>
+    <div class="span6 where">
+      <h2><i class="icon-home"></i> Kdy a kde?</h2>
+      <div class="row">
+        <div class="span3 date">
+          <p>
+            V sobotu <strong>10. listopadu</strong>.<br />
+            Od 8:30 do 20:00.
+          </p>
+        </div> 
+        <div class="span3 address">
+          <p>
+            V prostorách ČVUT - <strong>Fakulty strojní</strong>, <br />
+            v Praze v Dejvicích.
+          </p>
+          <address>
+            Technická 4<br />
+            Praha 6&nbsp;&nbsp;166 07
+          </address>
+        </div> 
+      </div>
       <iframe width="270" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;gl=cz&amp;t=m&amp;brcurrent=5,0,0&amp;hl=cs&amp;view=map&amp;ll=50.10379,14.391875&amp;spn=0.006881,0.012016&amp;z=15&amp;iwloc=near&addr&amp;output=embed"></iframe>
-      <a target="_blank" class="map-link" href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;brcurrent=5,0,0&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Zvětšit mapu</a>
-    </div>
-
-    <div class="span3 when">
-      <h2><i class="icon-time"></i> Kdy?</h2>
-      <p>
-        V sobotu <strong>10. listopadu</strong>.<br />
-        Od 9:00 do 18:00.
-      </p>
-      <ul class="likes menu">
-          <li>
-            <a id="gplus-circle" href="https://plus.google.com/u/0/events/c2997fsdecs49iebuds324it5j0" class="btn" target="_blank">
-              <img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" alt="Google+"
-                    style="vertical-align:-10%">
-              +DevFest Praha
-            </a>
-          </li>
-          <li class="twitter">
-            <a href="https://twitter.com/gughackathon" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @gughackathon</a>
-          </li>
-          <li class="facebook">
-            <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fgughackathon&amp;send=false&amp;layout=button_count&amp;width=140&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:140px; height:21px;" allowTransparency="true"></iframe>
-          </li>
-        </ul>
+      <a target="_blank" class="map-link" href="https://maps.google.cz/maps?q=Technick%C3%A1+4&amp;ie=UTF8&amp;hq=&amp;hnear=Technick%C3%A1+1902%2F4,+160+00+Praha&amp;t=m&amp;brcurrent=5,0,0&amp;z=16&amp;iwloc=A&amp;source=embed"><i class="icon-map-marker"></i> Zvětšit mapu</a>
     </div>
 
     <div class="span6">
       <div class="hero-unit">
         <h2><i class="icon-user"></i> Co vás čeká?</h2>
-        <ul class="menu left">
-          <li>Přednášky o #Androidu a #Webu</li>
-          <li>Googleři</li>
-          <li>Failcon</li>
-          <li>GUGCamp</li>
-          <li>FightClub</li>
-          <li>NerdRock</li>
+        <ul class="menu pull-left">
+          <li><a href="/program/">Přednášky o #Androidu a #Webu</a></li>
+          <li><a href="/recnici/">Googlery</a></li>
+          <li><a href="/failcon/">#FailCon</a></li>
+          <li><a href="/gugcamp/">GUGCamp</a></li>
+          <li><a href="/fightclub/">FightClub</a></li>
+          <li><a href="https://plus.google.com/u/0/events/ci9vgu8ldpjkmktt1hk58rdpgb8">NerdRock</a></li>
+          <li>Rage komix soutěž</li>
         </ul>
-        <ul class="menu left">
-          <li>AR Drone</li>
+        <ul class="menu pull-left">
           <li>Office Hours</li>
           <li>Android Expo</li>
-          <li>DevGames</li>
+          <li><a href="/devgames/">DevGames</a></li>
           <li>GPivo afterparty</li>
+          <li>Geekoviště</li>
+          <li>3D Printing </li>
           <li class="more">... a mnoho další zábavy!</li>
         </ul>
       </div>
@@ -115,50 +102,85 @@ layout: default
           <li><a href="#prednasky" data-toggle="tab">Přednášky</a></li>
           <li><a href="#gugcamp" data-toggle="tab">GUGCamp</a></li>
           <li><a href="#fightclub" data-toggle="tab">FightClub</a></li>
-          <li><a href="#failcon" data-toggle="tab">Failcon</a></li>
+          <li><a href="#failcon" data-toggle="tab">#FailCon</a></li>
           <li><a href="#devgames" data-toggle="tab">DevGames</a></li>
+          <li><a href="#gpivo" data-toggle="tab">GPivo</a></li>
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="festival">
             <h2>Podzimní vývojářský festival</h2>
-            <p>Den plný technologií, zážitků, networkingu, přednášek a kódu (v uvedeném pořadí)!</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDh6RkxkNVQ1V0R5WW9uMEpZVjFCVFE6MA" target="_blank">
-              Registrace
-            </a>
+            <p>DevFest je den plný technologií, zážitků, networkingu, přednášek a kódu (v uvedeném pořadí)!</p>
           </div>
           <div class="tab-pane" id="prednasky">
             <h2>Přednášky o Androidu a Webdevelopmentu</h2>
-            <p>Máme připraveny přednášky od skutečných odborníků, máte možnost se k nim přidat.</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEVvbHI4dlBLeVhWS2p4N0tDNjRDakE6MQ#gid=0" target="_blank">
-              Chci se k nim přidat
-            </a>
+            <p>Máme připraveny přednášky od skutečných odborníků, které rozšířilo i několik z vás.</p>
+            <p>
+              <a href="/recnici/">více o řečnících</a>
+              <a href="/program/">více programu</a> 
+            </p>           
           </div>
           <div class="tab-pane" id="gugcamp">
             <h2>GUGCamp</h2>
             <p>Přehlídka vašich aplikací s Google technologiemi a vybrání té nejlepší z nich.</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGs4Z1hCQi02dWgxWFBoUXhSamFpR1E6MA#gid=0"target="_blank">
-              Chci přihlásit aplikaci na GUGCamp
-            </a>
+            <a href="/gugcamp/">více o GugCampu</a>
           </div>
           <div class="tab-pane" id="fightclub">
             <h2>FightClub</h2>
-            <p>Souboj vývojářů mobilních platforem, dva týmy, jedno zadání. Realtime!</p>
-            <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEZGNVl6Vm9IdWlGcXM4UkdUYnl1bHc6MA#gid=0" target="_blank">
-              Chci soutěžit ve FightClubu
-            </a>
+            <p>FightClub je realtime soubojem mobilních vývojářů, tři týmy, jedno zadání, 90 minut a 10 úkolů. Víc vám nepovíme, protože o FightClubu se nemluví!</p>
+            <a href="/fightclub/">více o FightClubu</a>
           </div>
           <div class="tab-pane" id="failcon">
-            <h2>Failcon</h2>
-            <p>Co je školným úspěšných lidí? Epic #fails. Není úspěchu, který by nebyl provázen pády, průšvihy a špatnými rozhodnutími. Několik odvážných a úspěšných lidí se přijde podělit o tuto část své cesty. A doufejme, že #failcon nebude #fail.</p>
+            <h2>#FailCon</h2>
+            <p>Co je školným úspěšných lidí? Epic #fails. Není úspěchu, který by nebyl provázen pády, průšvihy a špatnými rozhodnutími. Několik odvážných a úspěšných lidí se přijde podělit o tuto část své cesty. A doufejme, že #failcon nebude #fail.</p>           
+            <p>
+              <a href="/recnici/">více o řečnících</a>
+              <a href="/failcon/">více o #FailConu</a>
+            </p>   
           </div>
           <div class="tab-pane" id="devgames">
             <h2>DevGames</h2>
             <p>Série krátkých úloh, které prověří vaše coding skills. Svůj notebook připojíte na DevGames server a soutěž může začít. Kdo se první dostane na nejvyšší level?</p>
+            <p>Ti nejlepší budou mít možnost prvního kola přijímacího řízení na vývojářskou pozici přímo u Google! Kdo má zájem, tak vytištěné CV v angličtině s sebou.</p>
+            <a class="pull-right" href="/devgames/">více o DevGames</a>
+          </div>
+          <div class="tab-pane" id="gpivo">
+            <h2>GPivo</h2>
+            <p>Neformální posezení nad Googlem. A pivem. Zároveň nás čeká hudební happening NerdRock s písničkami, kterému sami již nyní <a href="https://plus.google.com/u/0/events/ci9vgu8ldpjkmktt1hk58rdpgb8" class="float-none">vytvářejte texty</a>.</p>
           </div>
         </div>
       </div>
     </div>
   </div> <!-- /.row --> 
+</section>
+
+<section>
+  <ul class="likes menu">
+    <li>
+      <a id="gplus-circle" href="https://plus.google.com/u/0/events/c2997fsdecs49iebuds324it5j0" class="btn" target="_blank">
+        <img src="https://ssl.gstatic.com/images/icons/gplus-16.png" width="16" height="16" alt="Google+" style="vertical-align:-10%">
+        +DevFest Praha
+      </a>
+    </li>
+    <li class="twitter">
+      <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.1347008535.html#_=1351362222913&amp;id=twitter-widget-1&amp;lang=en&amp;screen_name=gughackathon&amp;show_count=false&amp;show_screen_name=true&amp;size=l" class="twitter-follow-button" style="width: 182px; height: 28px; " title="Twitter Follow Button" data-twttr-rendered="true"></iframe>
+    </li>
+    <li class="facebook">
+      <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fgughackathon&amp;send=false&amp;layout=button_count&amp;width=140&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:140px; height:21px;" allowtransparency="true"></iframe>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="row callouts">
+    <div class="span6 we">
+      <h2><i class="icon-facetime-video"></i> My o DevFestu</h2>
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/6FoUWoPkFXU" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="span6 you">
+      <h2><i class="icon-comment"></i> DevFest na sociálních sítích</h2>
+      <div id="lifestream">&nbsp;</div>
+    </div>
+  </div>
 </section>
 
 <section class="logos">

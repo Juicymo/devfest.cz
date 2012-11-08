@@ -56,6 +56,7 @@ CONFIGURING YOUR MAC SYSTEM
 DEVELOPMENT
 
 * Make sure you are in the root of this project.
+* To work with czech letters you need to run 'chcp 65001' before 'make server'
 * Run the server: 'make server'
 * Your web browser opens to http://localhost:8080
   * You may need to reload once.
