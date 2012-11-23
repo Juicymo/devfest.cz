@@ -4,7 +4,7 @@ img, table {
 }
 
 /* Not displayed elements - navigations etc. */
-.navbar-fixed-top, #countdown, .register-button {
+.navbar-fixed-top, #countdown, .register-button, .likes, .nav-tabs {
     display: none !important;
 } 
 
@@ -18,25 +18,27 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    line-height: 1;
+    padding: 0; 
 }
 
 h1 {
     font-size: 30pt;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    margin: 15px 0 5px;
 }
 
 h2 {
     font-size: 25pt;
-    margin: 3px 0 5px;
+    margin: 10px 0 5px;
 }
 
 h3 {
     font-size: 20pt;
+    margin-bottom: 0;
 }
 
 p {
-    margin-bottom: 10px;
+    margin: 0 0 15px;
 }
 
 a {
@@ -69,7 +71,7 @@ li {
 }
 
 address {
-    margin-left: 10px;
+    margin: 0 0 5px;
     font-style: italic;
 }
 
@@ -120,4 +122,32 @@ legend {
 
 fielset {
     margin: 2px 0;
+}
+
+iframe + a {
+    display: block;
+}
+
+.header, footer {
+    text-align: center;
+}
+
+.header {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;   
+}
+
+.organizator img, .speaker img {
+    margin: 10px 0 2px;
+}
+
+.organizator h3, .speaker h3 {
+    margin: 0 0 30px;
+}
+
+footer {
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid black;
 }
