@@ -42,6 +42,9 @@
 #program .blocks .span2.offset2 {
 	margin-left: 200px;
 }
+#program .blocks .span2.offset3 {
+	margin-left: 400px;
+}
 /* IE7 */
 * + html .carousel .item {
 	height: 300px !important;

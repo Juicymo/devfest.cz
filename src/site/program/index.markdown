@@ -336,6 +336,28 @@ Program
 		</div>
 		<div class="program-item-text span10">
 			<div class="row">
+				<div class="span2 web offset3">
+					<div class="inside-1">
+						<div class="inside-2">
+							<h2>Ondřej Kučera</h2>
+							<p>Nebojme se XML</p>							
+							<a href="https://plus.google.com/103679889782528149555/about">
+								<img src="/data/imgs/recnici/ondrej-kucera-small.jpg" width="40" height="40" alt="Ondřej Kučera" />
+							</a>
+							<span class="room pull-left visible-phone">Z1</span>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="visible-phone"></div>
+	<div class="program-item row blocks">
+		<div class="program-item-time span2 empty">
+			<span></span>
+		</div>
+		<div class="program-item-text span10">
+			<div class="row">
 				<div class="span2 android">
 					<div class="inside-1">
 						<div class="inside-2">
@@ -461,18 +483,6 @@ Program
 							<span class="room pull-left visible-phone">UNIVAC</span>
 						</div>
 					</div>					
-				</div>
-				<div class="span2 web offset2">
-					<div class="inside-1">
-						<div class="inside-2">
-							<h2>Ondřej Kučera</h2>
-							<p>Nebojme se XML</p>							
-							<a href="https://plus.google.com/103679889782528149555/about">
-								<img src="/data/imgs/recnici/ondrej-kucera-small.jpg" width="40" height="40" alt="Ondřej Kučera" />
-							</a>
-							<span class="room pull-left visible-phone">TRADIC</span>
-						</div>
-					</div>		
 				</div>
 			</div>
 		</div>
