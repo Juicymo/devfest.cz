@@ -247,6 +247,10 @@ section {
   padding-top: 10px;
 }
 
+.navbar .nav.pull-right {
+  padding-right: 15px;
+}
+
 .navbar .nav > li > a:hover {
   background: $blue-dark;
 }
